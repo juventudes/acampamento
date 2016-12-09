@@ -6,6 +6,9 @@
   },
   "dependencies": {
     "basscss": "^8.0.3",
+    "basscss-background-colors": "^2.1.0",
+    "basscss-colors": "^2.2.0",
+    "breakpoint-sass": "^2.7.1",
     "normalize.css": "^5.0.0"
   }
 }

@@ -1,6 +1,31 @@
 @import "../../../node_modules/normalize.css/normalize";
+
+@import "../../../node_modules/breakpoint-sass/stylesheets/breakpoint";
+
 @import "../../../node_modules/basscss/css/basscss";
+@import "../../../node_modules/basscss-background-colors/css/background-colors";
+@import "../../../node_modules/basscss-colors/css/colors";
+
+// Breakpoints
+$tablet: 800px;
+$desktop: 1200px;
 
 * {
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hero {
+  height: 560px;
+}
+
+.hero-video {
+  display: none;
+  @include breakpoint($desktop) {
+    display: block;
+    width: 100%;
+  }
 }

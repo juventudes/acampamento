@@ -5,6 +5,7 @@
     "laravel-elixir": "^1.0.0"
   },
   "dependencies": {
+    "basscss": "^8.0.3",
     "normalize.css": "^5.0.0"
   }
 }

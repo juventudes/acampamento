@@ -1,5 +1,11 @@
+# Laravel/Homestead
 /vendor
 /node_modules
 .env
 Homestead.yaml
 .vagrant
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*~

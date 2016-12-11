@@ -27,6 +27,13 @@
   </header>
 
   @yield('content')
+
+  <footer class="bg-navy white">
+    <div class="max-width-3 mx-auto p2 h6 center">
+      Em breve este site vai ter mais informações sobre o Acampamento (inter)nacional das juventudes em luta.<br />
+      Dúvidas? Para <strong>entrar em contato</strong>, envie um e-mail para <a href="mailto:juntos@juntos.org.br">juntos@juntos.org.br</a>.
+    </div>
+  </footer>
 </body>
 
 </html>

@@ -65,6 +65,10 @@ html, input, select, button {
   }
 }
 
+a {
+  @extend .red;
+}
+
 // Hero
 .hero {
   height: 560px;

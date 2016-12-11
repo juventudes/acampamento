@@ -34,4 +34,29 @@
       <p><strong>Phasellus sapien nisl, semper ac urna quis, viverra faucibus tortor.</strong> Fusce vitae lorem sapien. Nam faucibus mauris ipsum. Nullam dignissim fringilla sem quis congue. Quisque non rhoncus nunc. Fusce ut magna sem. Aliquam aliquam tristique nulla sed consequat. Vivamus eget felis eu risus ultricies hendrerit a quis justo.</p>
     </div>
   </main>
+
+  <section class="bg-maroon white">
+    <div class="max-width-3 mx-auto p2">
+      <h2>Assine o manifesto</h2>
+
+      <!-- TODO: form -->
+    </div>
+  </section>
+
+  <section class="bg-teal">
+    <div class="max-width-3 mx-auto p2">
+      <h2>{{ $total_count }} assinaturas</h2>
+
+      <ol>
+        @foreach ($assinaturas as $assinatura)
+          <li>
+            {{ $assinatura->nome }},
+            <small>{{ $assinatura->local_politico }}</small>
+          </li>
+        @endforeach
+      </ol>
+
+      <!-- TODO: pagination -->
+    </div>
+  </section>
 @endsection

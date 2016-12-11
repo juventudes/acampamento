@@ -3,7 +3,7 @@
 @section('content')
   <main>
     <div class="max-width-3 mx-auto p2">
-      <h2 class="h1" style="line-height: 1.15em;">Construa o Acampamento Internacional das Juventudes em Luta</h2>
+      <h1 style="line-height: 1.15em;">Construa o Acampamento Internacional das Juventudes em Luta</h1>
 
       <p>O mar da História está agitado! A luta que temos travado contra o governo corrupto de Temer &mdash; e seu pacote de retrocessos &mdash; produziu um dos maiores movimentos estudantis da história do país. As ocupações de escolas e universidades são apenas uma demonstração do que tem sido ao redor do mundo a luta dos que querem contra os que tiram direitos.</p>
 
@@ -25,7 +25,7 @@
 
   <section class="bg-maroon white">
     <div class="max-width-3 mx-auto p2">
-      <h3>Junte-se a nós!</h3>
+      <h2>Junte-se a nós!</h2>
 
       <!-- TODO: form -->
     </div>
@@ -33,7 +33,7 @@
 
   <section class="bg-teal">
     <div class="max-width-3 mx-auto p2">
-      <h3>{{ $total_count }} pessoas já assinaram</h3>
+      <h2>{{ $total_count }} pessoas já assinaram</h2>
 
       <ol>
         @foreach ($assinaturas as $assinatura)

@@ -23,7 +23,7 @@
             <img alt="Acampamento (inter)nacional das juventudes em luta" src="{{ asset('media/logo-white.png') }}" style="max-height: 320px;" />
           </h1>
 
-          <h2 class="h5 caps">Rio &bull; abril de 2017</h2>
+          <h2 class="h4 sans" style="text-transform: uppercase;">Rio de Janeiro &bull; abril de 2017</h2>
         </div>
       </div>
     </div>

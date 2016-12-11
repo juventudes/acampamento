@@ -46,6 +46,12 @@ $desktop: 1200px;
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+.sans {
+  font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
+}
+
 // General
 * {
   box-sizing: border-box;

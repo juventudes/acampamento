@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
+  <title>Acampamento Internacional das Juventudes em Luta</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -21,6 +22,8 @@
           <h1 class="hero-logo">
             <img alt="Acampamento (inter)nacional das juventudes em luta" src="{{ asset('media/logo-white.png') }}" style="max-height: 320px;" />
           </h1>
+
+          <h2 class="h5 caps">Rio &bull; abril de 2017</h2>
         </div>
       </div>
     </div>
@@ -30,7 +33,7 @@
 
   <footer class="bg-navy white">
     <div class="max-width-3 mx-auto p2 h6 center">
-      Em breve este site vai ter mais informações sobre o Acampamento (inter)nacional das juventudes em luta.<br />
+      Em breve este site vai ter mais informações sobre o Acampamento Internacional das Juventudes em Luta.<br />
       Dúvidas? Para <strong>entrar em contato</strong>, envie um e-mail para <a href="mailto:juntos@juntos.org.br">juntos@juntos.org.br</a>.
     </div>
   </footer>

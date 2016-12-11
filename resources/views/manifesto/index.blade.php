@@ -3,25 +3,29 @@
 @section('content')
   <main>
     <div class="max-width-3 mx-auto p2">
-      <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong> Nam faucibus blandit sem, ut molestie odio dapibus non. Sed eleifend sapien at pulvinar mollis. Aliquam faucibus nisi ac pharetra blandit. Cras tincidunt pulvinar imperdiet. Donec id fermentum eros. Mauris pulvinar pretium laoreet. Aliquam vel eleifend libero. Donec aliquam gravida felis vestibulum elementum. Etiam aliquet nisl quam, id rhoncus nulla cursus in. Nulla felis nibh, porta ac mi nec, malesuada convallis nunc.</p>
+      <h2 class="h1" style="line-height: 1.15em;">Construa o Acampamento Internacional das Juventudes em Luta</h2>
 
-      <p><strong>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</strong> Nam sollicitudin tortor vitae scelerisque lobortis. Praesent elementum libero id lorem maximus, in laoreet arcu suscipit. Etiam dapibus tortor odio, a laoreet urna laoreet in. Nulla posuere sapien vitae hendrerit pulvinar. Maecenas malesuada hendrerit laoreet. Quisque ultricies, purus mollis eleifend tristique, ante ipsum convallis lacus, a dapibus odio ipsum in est.</p>
+      <p>O mar da História está agitado! A luta que temos travado contra o governo corrupto de Temer &mdash; e seu pacote de retrocessos &mdash; produziu um dos maiores movimentos estudantis da história do país. As ocupações de escolas e universidades são apenas uma demonstração do que tem sido ao redor do mundo a luta dos que querem contra os que tiram direitos.</p>
 
-      <p><strong>Phasellus vitae faucibus enim.</strong> Phasellus orci risus, posuere vitae semper eget, tempor id massa. Suspendisse ut pharetra libero, in porta justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras placerat, ex vitae tempus aliquam, nunc augue maximus eros, in ultricies lacus nisi dapibus tortor. Integer a urna lorem. Etiam auctor, est vitae venenatis cursus, diam eros condimentum lorem, nec condimentum nibh urna quis diam. Vivamus porttitor condimentum tellus, vitae feugiat ipsum auctor vitae. Aenean faucibus luctus lectus, eu porta lacus rutrum vel. Duis venenatis neque at elit imperdiet placerat. Maecenas ultricies eleifend justo eget blandit. Quisque erat leo, malesuada ut mauris sit amet, auctor iaculis massa.</p>
+      <p>Vivemos sobre o signo de uma crise que se apresenta em diversas dimensões: social, política, moral, ambiental, mas também uma crise de ideias e projetos.</p>
 
-      <p><strong>Nunc dignissim varius nibh, a faucibus leo lobortis consequat.</strong> Donec scelerisque, turpis eu euismod finibus, urna quam vehicula dui, interdum cursus augue velit nec lectus. Cras congue eros facilisis mi fringilla vestibulum. Ut suscipit luctus pharetra. Etiam auctor, leo ut pulvinar ornare, tellus turpis consequat odio, nec varius eros orci eu quam. Maecenas tempus eget eros sit amet faucibus. Donec fermentum est ut nibh lacinia, non aliquam quam lobortis. Quisque vel ullamcorper nisi, a volutpat ante.</p>
+      <p><em>Queremos mais igualdade!</em> A desigualdade chegou ao extremo. O 1% mais rico da população mundial detém mais riquezas do que a soma dos 99% restantes. Essa minoria política e econômica utiliza-se da força do dinheiro e seus privilégios para se manter no poder e manter intocada essa estrutura de desigualdade. Essa casta se mantém também através da corrupção generalizada do Estado, produzindo redes de paraísos fiscais que permitem que os ricaços escondam trilhões de dólares. Nossa alternativa tem que ser dos de baixo contra os do andar de cima.</p>
 
-      <p><strong>Etiam congue et libero et maximus.</strong> Ut commodo risus sit amet scelerisque condimentum. Duis bibendum nulla vel lacus varius feugiat. Aliquam leo turpis, maximus nec fringilla in, mollis vel elit. Donec mauris arcu, posuere vitae lacinia ut, varius id neque. Phasellus cursus aliquam metus, sit amet facilisis justo rhoncus a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tristique maximus massa. Donec nec ante in arcu porta imperdiet tristique sed ante. Phasellus scelerisque justo eu est aliquet, sit amet interdum dolor placerat. Integer porta luctus fermentum. Vivamus est dui, ultrices quis neque eget, porta semper urna. Donec sit amet dui eleifend, laoreet tellus vel, tempor tellus. Vestibulum diam enim, suscipit a augue eget, luctus pellentesque arcu.</p>
+      <p><em>Queremos estudar!</em> Em toda a parte podemos observar o corte de direitos e serviços públicos em nome do lucro dos grandes bancos. A educação pública vem sendo sucateada ou entregue a grandes corporações que a transformam em uma mercadoria, pautada pela lógica de mercado. No Brasil, Chile e Paraguai tomamos as escolas em nossas mãos em defesa do direito de estudar.</p>
 
-      <p><strong>Nulla faucibus fringilla velit, non imperdiet dui tempus sed.</strong> Etiam ornare commodo lacus at rutrum. Donec molestie, lectus nec varius finibus, nisl lacus sagittis ligula, nec ornare leo massa sed enim. Sed pharetra placerat augue, ac vehicula sapien. Morbi ultrices dui et bibendum consequat. In quis scelerisque odio. Vestibulum a consequat risus, quis condimentum justo. Cras a nisi ut dolor rutrum mollis. Sed ac turpis vulputate, molestie orci non, tempor dui.</p>
+      <p><em>Queremos trabalhar!</em> Uma economia voltada para a especulação e não para o bem estar de uma maioria está nos levando a uma encruzilhada. Milhões de nós perdem seus empregos todos os anos, quando não estamos em postos de trabalho precários. Os jovens, em especial a negritude e as mulheres, são os mais atingidos por esse problema. Não queremos um futuro de incertezas, temos que tomar as rédeas da nossa economia.</p>
 
-      <p><strong>Phasellus sapien nisl, semper ac urna quis, viverra faucibus tortor.</strong> Fusce vitae lorem sapien. Nam faucibus mauris ipsum. Nullam dignissim fringilla sem quis congue. Quisque non rhoncus nunc. Fusce ut magna sem. Aliquam aliquam tristique nulla sed consequat. Vivamus eget felis eu risus ultricies hendrerit a quis justo.</p>
+      <p><em>Queremos ser livres!</em> Para além de uma democracia política e econômica, queremos ter o direito de ser quem somos! Nossas identidades importam. Somos mulheres, negras e negros, LGBTQs, indígenas etc: não aceitaremos mais sermos tratados como cidadãos de segunda categoria nem tampouco viver com violência. O sistema que explora é o mesmo que nos oprime. Temos que operar uma mudança cultural radical se quisermos construir uma sociabilidade sob outras bases.</p>
+
+      <p><em>Mas há resistência!</em> Das ocupações de escolas e universidades, à resistência juvenil contra Trump, nos levantamos contra os retrocessos. A certeza de que &ldquo;Fue el Estado&rdquo; que nos assassina, leva milhares às ruas &mdash; como o grandioso movimento negro &ldquo;Black Lives Matter&rdquo;, que não abre mão da luta contra o genocídio da juventude negra, e como no México que a juventude luta contra o narcocapitalismo e o assassinato dos 43 estudantes. As Primaveras feministas no Brasil, Peru, Argentina e México pintam de roxo a América Latina e ecoam nosso grito por nem uma a menos. Ocupamos as praças contra retirada de direitos, mas também por uma nova forma de fazer política, como foram as &ldquo;noites de pé&rdquo; ou &ldquo;nuit de bout&rdquo; que passamos na França. Somos, como disseram os espanhóis em 2011, a geração sem direitos, mas também a geração sem medo.</p>
+
+      <p><em>O futuro é agora!</em> Precisamos elaborar um projeto de outro futuro, ainda que tentem nos impor a atual realidade como única possível. Já diria Eduardo Galeano: o velho já morreu, o novo é que ainda não nasceu. E somente <strong>Juntos!</strong>, nós podemos apresentar uma saída para essa imensa crise que se apresenta para a humanidade. Por isso convocamos jovens de todo o mundo para um encontro em 2017 no Rio de Janeiro (Brasil) para dar um primeiro passo na construção dessa alternativa, da qual a juventude e o povo trabalhador seja protagonista. A disputa daqui pra frente não será somente de Trump e Temer versus nós, mas também do medo versus a esperança. E este Acampamento, no coração da Primavera Carioca, será para reafirmar a segunda opção como nossa!</p>
     </div>
   </main>
 
   <section class="bg-maroon white">
     <div class="max-width-3 mx-auto p2">
-      <h2>Assine o manifesto</h2>
+      <h3>Junte-se a nós!</h3>
 
       <!-- TODO: form -->
     </div>
@@ -29,7 +33,7 @@
 
   <section class="bg-teal">
     <div class="max-width-3 mx-auto p2">
-      <h2>{{ $total_count }} assinaturas</h2>
+      <h3>{{ $total_count }} pessoas já assinaram</h3>
 
       <ol>
         @foreach ($assinaturas as $assinatura)

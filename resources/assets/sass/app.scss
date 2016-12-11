@@ -1,7 +1,10 @@
+// normalize.css
 @import "../../../node_modules/normalize.css/normalize";
 
+// breakpoint-sass
 @import "../../../node_modules/breakpoint-sass/stylesheets/breakpoint";
 
+// basscss
 @import "../../../node_modules/basscss/css/basscss";
 @import "../../../node_modules/basscss-background-colors/css/background-colors";
 @import "../../../node_modules/basscss-colors/css/colors";
@@ -10,6 +13,40 @@
 $tablet: 800px;
 $desktop: 1200px;
 
+// Fonts
+@font-face {
+  font-family: 'charter';
+  src: url('../fonts/charter_bold_italic-webfont.eot');
+  src: url('../fonts/charter_bold_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/charter_bold_italic-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'charter';
+  src: url('../fonts/charter_bold-webfont.eot');
+  src: url('../fonts/charter_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/charter_bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'charter';
+  src: url('../fonts/charter_italic-webfont.eot');
+  src: url('../fonts/charter_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/charter_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'charter';
+  src: url('../fonts/charter_regular-webfont.eot');
+  src: url('../fonts/charter_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/charter_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// General
 * {
   box-sizing: border-box;
 }
@@ -18,6 +55,17 @@ img {
   max-width: 100%;
 }
 
+html, input, select, button {
+  color: rgba(0, 0, 0, 0.9);
+  font: 18px 'charter', Georgia, Cambria, "Times New Roman", Times, serif;
+  line-height: 1.58em;
+  letter-spacing: -.003em;
+  @include breakpoint($tablet) {
+    font-size: 21px;
+  }
+}
+
+// Hero
 .hero {
   height: 560px;
 }

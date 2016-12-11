@@ -14,8 +14,19 @@ class DatabaseSeeder extends Seeder
     {
         Model::unguard();
 
-        // $this->call('UserTableSeeder');
+         $this->call('AssinaturaTableSeeder');
 
         Model::reguard();
+    }
+}
+
+class AssinaturaTableSeeder extends Seeder
+{
+    public function run()
+    {
+        if(\App\Assinatura::count() < 40){
+            for($i=0; $i<40; $i++)
+                factory(\App\Assinatura::class)->make()->save();
+        }
     }
 }

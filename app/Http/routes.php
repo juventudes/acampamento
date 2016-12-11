@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('manifesto.index');
 });
+
+Route::resource('assinatura', 'AssinaturaController', [
+    'except' => [
+        'destroy',
+        'edit',
+        'update',
+    ]
+]);

@@ -11,8 +11,8 @@
 </head>
 
 <body>
-  <header class="hero relative overflow-hidden bg-black white" style="background: url('{{ asset('media/hero-frame.jpg') }}') no-repeat top right / cover;">
-    <video class="hero-video absolute bottom-0" autoplay="autoplay" loop="loop" poster="{{ asset('media/hero-frame.jpg') }}">
+  <header class="hero relative overflow-hidden bg-black white" style="background: url('{{ asset('media/hero-cover.jpg') }}') no-repeat top right / cover;">
+    <video class="hero-video absolute bottom-0" autoplay="autoplay" loop="loop" poster="{{ asset('media/hero-cover.jpg') }}">
       <source src="{{ asset('media/hero-video.mp4') }}" type="video/mp4" />
     </video>
 

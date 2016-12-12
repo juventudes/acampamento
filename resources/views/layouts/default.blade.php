@@ -11,12 +11,12 @@
 </head>
 
 <body>
-  <header class="hero relative overflow-hidden bg-orange white">
-    <video class="hero-video absolute top-0" autoplay="autoplay" loop="loop" poster="">
-      <source src="" type="video/mp4" />
+  <header class="hero relative overflow-hidden bg-black white" style="background: url('{{ asset('media/hero-frame.jpg') }}') no-repeat top center / cover;">
+    <video class="hero-video absolute bottom-0" autoplay="autoplay" loop="loop" poster="{{ asset('media/hero-frame.jpg') }}">
+      <source src="{{ asset('media/hero-video.mp4') }}" type="video/mp4" />
     </video>
 
-    <div class="absolute bottom-0 left-0 right-0 top-0">
+    <div class="absolute bottom-0 left-0 right-0 top-0" style="background: rgba(0, 0, 0, 0.5);">
       <div class="table" style="width: 100%; height: 100%;">
         <div class="table-cell align-middle center px2 py4">
           <h1 class="hero-logo">

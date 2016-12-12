@@ -82,9 +82,9 @@ a {
 
 .hero-video {
   display: none;
-  @include breakpoint($desktop) {
+  width: 100%;
+  @include breakpoint($tablet) {
     display: block;
-    width: 100%;
   }
 }
 

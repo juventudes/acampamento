@@ -11,7 +11,7 @@ return [
     |
     */
 
-    'enviar' => 'Enviar',
+    'enviar' => 'Assinar',
     'compartilhar' => 'Compartilhar',
     'assine' => 'Assine você também',
 ];

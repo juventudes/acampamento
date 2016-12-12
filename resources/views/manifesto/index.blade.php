@@ -27,7 +27,40 @@
     <div class="max-width-3 mx-auto p2">
       <h2>Junte-se a nós!</h2>
 
-      <!-- TODO: form -->
+      @if ($errors)
+        <span class="error">{{$errors->first()}}</span>
+      @endif
+
+      <form action="{{ route('assinatura.store') }}" method="post">
+        {!! csrf_field() !!}
+
+        <fieldset>
+          <ul>
+            <li>
+              <label for="campo-nome">{{ trans('fields.nome') }}</label>
+              <input type="text" name="nome" id="campo-nome" required="required" />
+            </li>
+            <li>
+              <label for="campo-local-politico">{{ trans('fields.local_politico') }}</label>
+              <input type="text" name="local_politico" id="campo-local-politico" required="required" />
+            </li>
+            <li>
+              <label for="campo-telefone">{{ trans('fields.telefone') }}</label>
+              <input type="tel" name="telefone" id="campo-telefone" />
+            </li>
+            <li>
+              <label for="campo-email">{{ trans('fields.email') }}</label>
+              <input type="email" name="email" id="campo-email" />
+            </li>
+            <li>
+              <label for="campo-local">{{ trans('fields.local') }}</label>
+              <input type="text" name="local" id="campo-local" required="required" />
+            </li>
+          </ul>
+
+          <div><button type="submit" class="bg-yellow">{{ trans('msg.enviar') }}</button></div>
+        </fieldset>
+      </form>
     </div>
   </section>
 

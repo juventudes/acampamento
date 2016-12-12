@@ -87,3 +87,39 @@ a {
     width: 100%;
   }
 }
+
+// Form
+fieldset {
+  border: 0;
+  padding: 0;
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    padding: 5px 0;
+  }
+}
+
+label {
+  display: block;
+  font-size: 75%;
+}
+
+input, select, button {
+  background: #fff;
+  border: 0;
+  display: block;
+  font: 21px 'charter', Georgia, Cambria, "Times New Roman", Times, serif;
+  letter-spacing: -.003em;
+  line-height: 1.58em;
+  max-width: 500px;
+  padding: 6px 8px;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}

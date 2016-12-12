@@ -12,11 +12,10 @@ return [
     |
     */
 
-    'nome' => 'Nome',
+    'nome' => 'Nome completo',
     'local'     => 'Local',
-    'local_d'     => 'Sua cidade, estado, país',
-    'local_politico' => 'Local político',
-    'local_politico_d' => 'Ocupação, escola, coletivo.',
+    'local_politico' => 'Ocupação/Escola/Coletivo',
+    'local_politico_d' => 'Vai aparecer publicamente junto com seu nome',
     'email' => 'E-mail',
     'telefone' => 'Telefone',
 ];

@@ -23,7 +23,11 @@
             <img alt="Acampamento (inter)nacional das juventudes em luta" src="{{ asset('media/logo-white.png') }}" style="max-height: 320px;" />
           </h1>
 
-          <h2 class="h4 sans" style="text-transform: uppercase;">Rio de Janeiro &bull; abril de 2017</h2>
+          <h2 class="h4 sans" style="text-transform: uppercase;">
+            Rio de Janeiro
+            <a href="//juntos.org.br/" title="Juntos!"><img src="{{ asset('/media/logo-juntos.png') }}" style="margin: 0 10px; vertical-align: middle; width: 50px;" alt="&bull;" /></a>
+            Abril de 2017
+          </h2>
         </div>
       </div>
     </div>

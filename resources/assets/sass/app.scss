@@ -10,7 +10,7 @@
 @import "../../../node_modules/basscss-colors/css/colors";
 
 // Breakpoints
-$tablet: 800px;
+$tablet: 768px;
 $desktop: 1200px;
 
 // Fonts
@@ -76,15 +76,30 @@ a {
 }
 
 // Hero
+$hero_height: 560px;
 .hero {
-  height: 560px;
+  height: $hero_height;
 }
 
 .hero-video {
   display: none;
-  width: 100%;
   @include breakpoint($tablet) {
     display: block;
+    height: 100%;
+  }
+  @include breakpoint(1280px * $hero_height / 720px) {
+    height: auto;
+    width: 100%;
+  }
+}
+
+// Language switch
+.lang-switch {
+  position: relative;
+  a {
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
   }
 }
 

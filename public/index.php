@@ -1,4 +1,16 @@
 <?php
+// https://laracasts.com/discuss/channels/requests/multi-language-routes-and-url
+$J_LOCALES = ["pt" => "Português", "en" => "English", "es" => "Español"];
+$J_LOCALE = "pt";
+if (strlen($_SERVER["REQUEST_URI"]) == 3) {
+  $_SERVER["REQUEST_URI"] .= "/";
+}
+$parts = explode("/", $_SERVER["REQUEST_URI"]);
+if (in_array($parts[1], array_keys($J_LOCALES))) {
+  array_shift($parts);
+  $J_LOCALE = array_shift($parts);
+  $_SERVER["REQUEST_URI"] = "/" . implode("/", $parts);
+}
 
 /**
  * Laravel - A PHP Framework For Web Artisans

@@ -13,7 +13,8 @@ Para começar a desenvolver:
 
 ```
 $ composer install
-$ php vendor/bin/homestead make
+$ php vendor/bin/homestead make     # se você usa Linux/Mac
+$ vendor\bin\homestead make         # se você usa Windows
 $ vagrant up
 ```
 

@@ -32,7 +32,7 @@
             </li>
             <li>
               <label for="campo-telefone">{{ trans('fields.telefone') }}</label>
-              <input type="tel" name="telefone" id="campo-telefone" />
+              <input type="text" class="phone" name="telefone" id="campo-telefone" />
             </li>
             <li>
               <label for="campo-email">{{ trans('fields.email') }}</label>

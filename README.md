@@ -28,6 +28,7 @@ E aí use:
 ```
 vagrant@acampamento:~$ cd acampamento
 vagrant@acampamento:~/acampamento$ php artisan migrate
+vagrant@acampamento:~/acampamento$ php artisan db:seed  # opcional: alimenta BD
 ```
 
 ---

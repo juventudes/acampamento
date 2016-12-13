@@ -8,6 +8,7 @@
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <link rel="stylesheet" href="{{ elixir('css/app.css') }}" />
+  <script type="text/javascript" src="{{ elixir('js/bundle.js') }}"></script>
 </head>
 
 <body>

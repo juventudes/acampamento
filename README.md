@@ -31,3 +31,11 @@ Para monitorar mudanças nos arquivos SASS e compilar para CSS:
 $ npm install
 $ gulp watch
 ```
+
+Antes de fazer um commit, pare o processo `gulp watch` e rode:
+
+```
+$ gulp --production
+```
+
+(para mantermos os assets minificados no repositório)

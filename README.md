@@ -9,13 +9,25 @@ Pré-requisitos:
 - VirtualBox
 - Vagrant
 
-Para começar a desenvolver:
+Para começar a desenvolver, entre na pasta onde clonou o repositório e rode:
 
 ```
 $ composer install
 $ php vendor/bin/homestead make     # se você usa Linux/Mac
 $ vendor\bin\homestead make         # se você usa Windows
 $ vagrant up
+```
+
+Para rodar as migrações no banco de dados (necessário ao começar a desenvolver e recomendável sempre que se faz um `git pull`), conecte-se à máquina virtual via SSH:
+
+- Linux: `ssh -p 2222 vagrant@127.0.0.1`
+- Windows: use o PuTTY para se conectar a 127.0.0.1 na porta 2222 com usuário `vagrant`
+
+E aí use:
+
+```
+vagrant@acampamento:~$ cd acampamento
+vagrant@acampamento:~/acampamento$ php artisan migrate
 ```
 
 ---

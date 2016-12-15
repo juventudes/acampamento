@@ -21,6 +21,9 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
   <meta property="og:title" content="{{ $title }}" />
   <meta property="og:description" content="{{ trans('msg.camp_description') }}" />
   <meta property="og:image" content="{{ asset('media/og-image.jpg') }}" />
+  <meta property="og:image:secure_url" content="{{ asset('media/og-image.jpg') }}" />
+  <meta property="og:image:width" content="1258" />
+  <meta property="og:image:height" content="555" />
   <meta property="og:type" content="website" />
 @endsection
 

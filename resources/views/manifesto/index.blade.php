@@ -29,6 +29,10 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
     <div class="max-width-3 mx-auto p2">
       <h1 style="line-height: 1.15em;">{{ $title }}</h1>
 
+      @if (isset($assinatura))
+        <p><strong>{{ trans('msg.share_d') }}</strong></p>
+      @endif
+
       <div class="share-buttons">
         <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ trans('manifesto.title') }}" data-size="large"></a>
         <div class="fb-share-button" data-layout="button_count" data-size="large" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"></a></div>

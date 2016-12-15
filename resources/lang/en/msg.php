@@ -14,6 +14,7 @@ return [
     'enviar' => 'Sign',
     'compartilhar' => 'Share',
     'assine' => 'Sign',
+    'share_d' => 'Share on your social networks!',
     'join_us' => 'Join us!',
     'join_us_d' => 'Sign this invitation to join the organization of the camp with us.',
     'signature_count' => ':count people already signed',

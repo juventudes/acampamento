@@ -14,6 +14,7 @@ return [
     'enviar' => 'Assinar',
     'compartilhar' => 'Compartilhar',
     'assine' => 'Assine você também',
+    'share_d' => 'Compartilhe nas suas redes sociais!',
     'join_us' => 'Junte-se a nós!',
     'join_us_d' => 'Assine esse chamado para construir o acampamento junto conosco.',
     'signature_count' => ':count pessoas já assinaram',

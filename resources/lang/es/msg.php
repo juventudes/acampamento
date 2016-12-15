@@ -14,6 +14,7 @@ return [
     'enviar' => 'Firmar',
     'compartilhar' => 'Compartir',
     'assine' => 'Firmar',
+    'share_d' => '¡Comparte en sus redes sociales!',
     'join_us' => '¡Únete a nosotros!',
     'join_us_d' => 'Firme este llamado y venga construir el campamento con nosotros.',
     'signature_count' => ':count personas ya han firmado',

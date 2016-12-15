@@ -52,6 +52,9 @@ class AssinaturaController extends Controller
      */
     public function store(Request $request)
     {
+        $telefone = ((object) $request->all())->telefone;
+        $telefone = preg_replace('/[^0-9]/', '', $telefone);
+        $request->replace(array('telefone' => $telefone));
         $validator = Validator::make($request->all(), self::validaAssinaturaRegras());
         if($validator->fails()){
             return redirect()

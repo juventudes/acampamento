@@ -8,6 +8,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <link rel="stylesheet" href="{{ elixir('css/app.css') }}" />
   <link rel="icon" sizes="192x192" href="{{ asset('media/favicon.png') }}" />
+  <link rel="me" href="https://twitter.com/_juntos" />
   <script type="text/javascript" src="{{ elixir('js/bundle.js') }}"></script>
   @yield('opengraph')
   <meta property="og:site_name" content="Acampamento Internacional" />

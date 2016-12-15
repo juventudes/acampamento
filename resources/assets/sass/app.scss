@@ -139,3 +139,14 @@ button {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+// Share buttons
+.share-buttons {
+  font-size: 0;
+  height: 28px;
+  line-height: 0;
+  & > * {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+}

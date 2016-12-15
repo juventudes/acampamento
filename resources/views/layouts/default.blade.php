@@ -3,12 +3,15 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>{{ trans('msg.camp_title') }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <link rel="stylesheet" href="{{ elixir('css/app.css') }}" />
   <script type="text/javascript" src="{{ elixir('js/bundle.js') }}"></script>
+  @yield('opengraph')
+  <meta property="og:site_name" content="Acampamento Internacional" />
+  <meta name="author" content="Juntos" />
+  <meta property="article:author" content="https://facebook.com/juventudeemluta/" />
 </head>
 
 <body>

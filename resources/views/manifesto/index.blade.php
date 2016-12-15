@@ -1,5 +1,15 @@
 @extends('layouts.default')
 
+@section('opengraph')
+  <title>{{ trans('msg.camp_title') }}</title>
+  <meta name="description" content="{{ trans('msg.camp_description') }}" />
+  <meta property="og:url" content="https://acampamento.juntos.org.br/" />
+  <meta property="og:title" content="{{ trans('msg.camp_title') }}" />
+  <meta property="og:description" content="{{ trans('msg.camp_description') }}" />
+  <meta property="og:image" content="{{ asset('media/og-image.jpg') }}" />
+  <meta property="og:type" content="website" />
+@endsection
+
 @section('content')
   <main>
     <div class="max-width-3 mx-auto p2">

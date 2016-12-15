@@ -18,7 +18,7 @@ class AssinaturaController extends Controller
             'email' => 'required|email|unique:assinaturas',
             'local' => 'required|between:5,250',
             'local_politico' => 'between:3,250',
-            'telefone' => 'numeric|between:10,11',
+            'telefone' => 'digits_between:10,11',
         ];
     }
 
@@ -54,7 +54,7 @@ class AssinaturaController extends Controller
     {
         $telefone = ((object) $request->all())->telefone;
         $telefone = preg_replace('/[^0-9]/', '', $telefone);
-        $request->replace(array('telefone' => $telefone));
+        $request->merge(array('telefone' => $telefone));
         $validator = Validator::make($request->all(), self::validaAssinaturaRegras());
         if($validator->fails()){
             return redirect()

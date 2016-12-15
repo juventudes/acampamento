@@ -23,6 +23,8 @@
     <div class="max-width-3 mx-auto p2">
       <h2>{{ trans('msg.join_us') }}</h2>
 
+      <p>{{ trans('msg.join_us_d') }}</p>
+
       @if ($errors)
         <span class="error">{{$errors->first()}}</span>
       @endif

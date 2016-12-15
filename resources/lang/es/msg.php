@@ -15,6 +15,7 @@ return [
     'compartilhar' => 'Compartir',
     'assine' => 'Firmar',
     'join_us' => '¡Únete a nosotros!',
+    'join_us_d' => 'Firme este llamado y venga construir el campamento con nosotros.',
     'signature_count' => ':count personas ya han firmado',
     'camp_date' => 'Abril de 2017',
     'camp_title' => 'Campamento Internacional de las Juventudes en Lucha',

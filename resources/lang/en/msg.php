@@ -15,6 +15,7 @@ return [
     'compartilhar' => 'Share',
     'assine' => 'Sign',
     'join_us' => 'Join us!',
+    'join_us_d' => 'Sign this invitation to join the organization of the camp with us.',
     'signature_count' => ':count people already signed',
     'camp_date' => 'April 2017',
     'camp_title' => 'International Camp of the Youth in Fight',

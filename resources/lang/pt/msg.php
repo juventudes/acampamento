@@ -15,6 +15,7 @@ return [
     'compartilhar' => 'Compartilhar',
     'assine' => 'Assine você também',
     'join_us' => 'Junte-se a nós!',
+    'join_us_d' => 'Assine esse chamado para construir o acampamento junto conosco.',
     'signature_count' => ':count pessoas já assinaram',
     'camp_date' => 'Abril de 2017',
     'camp_title' => 'Acampamento Internacional das Juventudes em Luta',

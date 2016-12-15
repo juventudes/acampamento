@@ -13,7 +13,7 @@ return [
     */
 
     'nome' => 'Full Name',
-    'local'     => 'Location',
+    'local'     => 'City/State/Country',
     'local_politico' => 'Occupation/School/Organization',
     'local_politico_d' => 'This will be public.',
     'email' => 'Email',

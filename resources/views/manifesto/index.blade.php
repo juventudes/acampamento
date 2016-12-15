@@ -88,7 +88,7 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
       <ol>
         @foreach ($assinaturas as $assinatura)
           <li>
-            {{ $assinatura->nome }},
+            <a href="{{ route('assinatura.show', $assinatura->id) }}" class="color-inherit" style="text-decoration: none;">{{ $assinatura->nome }}</a>,
             <small>{{ $assinatura->local_politico }}</small>
           </li>
         @endforeach

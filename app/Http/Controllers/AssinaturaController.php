@@ -15,9 +15,10 @@ class AssinaturaController extends Controller
     {
         return [
             'nome' => 'required|between:2,250',
-            'email' => 'required|email',
+            'email' => 'required|email|unique:assinaturas',
             'local' => 'required|between:5,250',
             'local_politico' => 'between:3,250',
+            'telefone' => 'numeric|between:10,11',
         ];
     }
 

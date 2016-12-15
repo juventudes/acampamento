@@ -1,11 +1,24 @@
 @extends('layouts.default')
 
+<?php
+$title = trans('manifesto.title');
+if (isset($assinatura)) {
+  $title = trans('manifesto.signature', ['name' => $assinatura->nome]);
+}
+
+$path = Request::path();
+if ($path[0] != '/') {
+  $path = "/$path";
+}
+$canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . $path;
+?>
+
 @section('opengraph')
-  <title>{{ trans('msg.camp_title') }}</title>
+  <title>{{ $title }}</title>
   <meta name="description" content="{{ trans('msg.camp_description') }}" />
-  <meta rel="canonical" href="https://acampamento.juntos.org.br/{{ Config::get('app.locale') }}" />
-  <meta property="og:url" content="https://acampamento.juntos.org.br/{{ Config::get('app.locale') }}" />
-  <meta property="og:title" content="{{ trans('msg.camp_title') }}" />
+  <meta rel="canonical" href="{{ $canonical }}" />
+  <meta property="og:url" content="{{ $canonical }}" />
+  <meta property="og:title" content="{{ $title }}" />
   <meta property="og:description" content="{{ trans('msg.camp_description') }}" />
   <meta property="og:image" content="{{ asset('media/og-image.jpg') }}" />
   <meta property="og:type" content="website" />
@@ -14,7 +27,7 @@
 @section('content')
   <main>
     <div class="max-width-3 mx-auto p2">
-      <h1 style="line-height: 1.15em;">{{ trans('manifesto.title') }}</h1>
+      <h1 style="line-height: 1.15em;">{{ $title }}</h1>
 
       <div class="share-buttons">
         <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ trans('manifesto.title') }}" data-size="large"></a>

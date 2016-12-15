@@ -80,7 +80,9 @@ class AssinaturaController extends Controller
     {
         $assinatura = Assinatura::find($id);
         if(!$assinatura->exists) abort(404);
-        return view('assinatura.show')->with([
+        return view('manifesto.index')->with([
+            'total_count' => count(Assinatura::all()),
+            'assinaturas' => Assinatura::all(),
             'assinatura' => $assinatura,
         ]);
     }

@@ -2,6 +2,7 @@
 
 return [
   'title' => 'Let\'s build the International Camp of the Youth in Fight',
+  'signature' => ':name calls for the International Camp of the Youth in Fight',
   'html' => <<<HTML
     <p>The sea of history is shaken! The struggle we’ve been fighting against Michel Temer's corrupt government and his social backslides produced one of the greatest student movements in the country's history. The occupations of schools and universities are just a demonstration of what has been happening around the world, the struggle of those in need against those who take out our rights.</p>
 

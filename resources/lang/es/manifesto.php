@@ -2,6 +2,7 @@
 
 return [
   'title' => 'Construya el Campamento Internacional de las Juventudes en Lucha',
+  'signature' => ':name invita al Campamento Internacional de las Juventudes en Lucha',
   'html' => <<<HTML
     <p>¡El mar de la historia está agitado! La lucha que hemos encampado contra el gobierno corrupto de Temer &mdash; y sus medidas de retrocesos &mdash; produjo uno de los mayores movimientos estudiantiles de la historia del país. Las ocupaciones de escuela y universidades son solo una demostración de lo que ha sido alrededor del mundo la lucha de los que quieren contra los que retiran derechos.</p>
 

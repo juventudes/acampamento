@@ -2,6 +2,7 @@
 
 return [
   'title' => 'Construa o Acampamento Internacional das Juventudes em Luta',
+  'signature' => ':name convida para o Acampamento Internacional das Juventudes em Luta',
   'html' => <<<HTML
     <p>O mar da História está agitado! A luta que temos travado contra o governo corrupto de Temer &mdash; e seu pacote de retrocessos &mdash; produziu um dos maiores movimentos estudantis da história do país. As ocupações de escolas e universidades são apenas uma demonstração do que tem sido ao redor do mundo a luta dos que querem contra os que tiram direitos.</p>
 

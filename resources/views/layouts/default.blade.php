@@ -26,7 +26,9 @@
       <div class="table" style="width: 100%; height: 100%;">
         <div class="table-cell align-middle center px2 py4">
           <h1 class="hero-logo">
-            <img alt="{{ trans('msg.camp_title') }}" src="{{ asset('media/logo-white.png') }}" style="max-height: 320px;" />
+            <a href="/{{ Config::get('app.locale') }}/">
+              <img alt="{{ trans('msg.camp_title') }}" src="{{ asset('media/logo-white.png') }}" style="max-height: 320px;" />
+            </a>
           </h1>
 
           <h2 class="h4 sans" style="text-transform: uppercase;">
@@ -44,7 +46,7 @@
         @foreach ($J_LOCALES as $prefix => $lang)
           @if ($prefix != $J_LOCALE)
             <?php
-            $path = Route::getCurrentRoute()->getPath();
+            $path = Request::path();
             if ($path[0] != '/') {
               $path = "/$path";
             }

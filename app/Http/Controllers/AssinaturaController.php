@@ -52,6 +52,7 @@ class AssinaturaController extends Controller
      */
     public function store(Request $request)
     {
+        global $J_LOCALE;
         $telefone = ((object) $request->all())->telefone;
         $telefone = preg_replace('/[^0-9]/', '', $telefone);
         $request->merge(array('telefone' => $telefone));
@@ -64,7 +65,7 @@ class AssinaturaController extends Controller
         }
         $assinatura = new Assinatura();
         $assinatura->fill($request->all());
-        if($assinatura->save()) return redirect(route('assinatura.show', $assinatura->id));
+        if($assinatura->save()) return redirect("/" . $J_LOCALE . '/assinatura/' . $assinatura->id);
 
         abort(500);
         return null;

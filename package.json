@@ -10,6 +10,7 @@
     "basscss-colors": "^2.2.0",
     "breakpoint-sass": "^2.7.1",
     "jquery": "^3.1.1",
+    "jquery-ui-dist": "^1.12.1",
     "jquery.maskedinput": "^1.4.1",
     "normalize.css": "^5.0.0"
   }

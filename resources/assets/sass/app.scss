@@ -175,3 +175,62 @@ button {
     vertical-align: middle;
   }
 }
+
+// Schedule
+.schedule {
+  font-size: 0.9em;
+
+  td {
+    line-height: 1.3em;
+    padding: 5px;
+    &:first-child {
+      @extend .bg-maroon;
+      @extend .white;
+      font-weight: 700;
+      text-align: center;
+      width: 80px;
+    }
+  }
+}
+
+// Tabs
+.ui-tabs-nav {
+  list-style: none;
+  margin-bottom: 0;
+  margin-left: 10px;
+  padding: 0;
+  .ui-tabs-tab {
+    display: inline-block;
+    a {
+      background: rgba(0, 0, 0, 0.2);
+      color: #000;
+      display: block;
+      line-height: 1em;
+      padding: 8px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    &.ui-tabs-active a {
+      @extend .bg-navy;
+      @extend .white;
+    }
+
+    font-size: 0;
+    span {
+      font-size: 14px;
+      line-height: 1em;
+    }
+
+    @include breakpoint($tablet) {
+      font-size: 14px;
+    }
+  }
+}
+
+.ui-tabs-panel {
+  border: solid 1px #001F3F;
+  padding: 10px;
+  h3 {
+    margin: 0 0 10px;
+  }
+}

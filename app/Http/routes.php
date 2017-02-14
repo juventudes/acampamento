@@ -12,6 +12,10 @@ Route::get('/', function () {
   ]);
 });
 
+Route::get('/schedule', function() {
+  return view('schedule.index');
+});
+
 Route::resource('assinatura', 'AssinaturaController', [
     'except' => [
         'destroy',

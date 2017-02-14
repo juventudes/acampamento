@@ -1,4 +1,5 @@
 var $ = window.jQuery = require("../../../node_modules/jquery/dist/jquery");
+require("../../../node_modules/jquery-ui-dist/jquery-ui.js");
 require("../../../node_modules/jquery.maskedinput/src/jquery.maskedinput.js");
 
 var analytics = require("./analytics");
@@ -33,4 +34,7 @@ $(function() {
       $(this).mask("(99) 9999-9999?9");
     }
   }).trigger("focusout");
+
+  // Tabs
+  $(".tabs").tabs();
 });

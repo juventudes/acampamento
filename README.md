@@ -15,7 +15,8 @@ Para começar a desenvolver, entre na pasta onde clonou o repositório e rode:
 $ composer install
 $ php vendor/bin/homestead make     # se você usa Linux/Mac
 $ vendor\bin\homestead make         # se você usa Windows
-$ vagrant up
+$ vagrant up --provision
+$ sed 's/SomeRandomString/'`openssl rand -hex 16`'/' .env.example > .env
 ```
 
 Para rodar as migrações no banco de dados (necessário ao começar a desenvolver e recomendável sempre que se faz um `git pull`), conecte-se à máquina virtual via SSH:

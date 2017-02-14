@@ -24,7 +24,7 @@
 
     <div class="absolute bottom-0 left-0 right-0 top-0" style="background: rgba(0, 0, 0, 0.5);">
       <div class="table" style="width: 100%; height: 100%;">
-        <div class="table-cell align-middle center px2 py4">
+        <div class="table-cell align-middle center px2">
           <h1 class="hero-logo">
             <a href="/{{ Config::get('app.locale') }}/">
               <img alt="{{ trans('msg.camp_title') }}" src="{{ asset('media/logo-white.png') }}" style="max-height: 320px;" />
@@ -57,6 +57,15 @@
       </div>
     </div>
   </header>
+
+  <nav>
+    <div class="max-width-3 mx-auto px1">
+      <ul>
+        <li><a href="/{{ Config::get('app.locale') }}/" class="px1 py1">{{ trans('menu.manifest') }}</a></li>
+        <li><a href="/{{ Config::get('app.locale') }}/schedule/" class="px1 py1">{{ trans('menu.schedule') }}</a></li>
+      </ul>
+    </div>
+  </nav>
 
   @yield('content')
 

@@ -173,7 +173,7 @@ return [
 
     <p>
       <strong>Invitados internacionales:</strong>
-      Melike Yasar (Kurdistan Libre); Edward Snowden (via vídeo); Winnie Wong (Mujeres por Sanders, EEUU); Anticapitalistas Podemos (España); Veronika Mendoza (Movimiento Nuevo Perú); Glenn Gleenwald (The Intercept); Vilma Ripoll “Juntas y a la Izquierda” (Argentina); Youth Democratic Socialists of America (EUA); Marxist Student Federation (Inglaterra); Juventud Socialista MST (Argentina); BAM, Izquierda Autónoma, Revolución Democrática, UNE (Chile); Jóvenes Alternativa Socialista (Paraguay); Juventud del Movimiento Nuevo Peru; Juventud de Marea Socialista (Venezuela); Juventude Quebeq Solidarie (Canadá); Juventude Bloco de Esquerda (Portugal); Juventud Marxista (México), Comité de Lucha del Politécnico (México)
+      Melike Yasar (Kurdistan Libre); Edward Snowden (via vídeo); Winnie Wong (Mujeres por Sanders, EEUU); Anticapitalistas Podemos (España); Veronika Mendoza (Movimiento Nuevo Perú); Glenn Gleenwald (The Intercept); Vilma Ripoll “Juntas y a la Izquierda” (Argentina); Youth Democratic Socialists of America (EEUU); Marxist Student Federation (Inglaterra); Juventud Socialista MST (Argentina); BAM, Izquierda Autónoma, Revolución Democrática, UNE (Chile); Jóvenes Alternativa Socialista (Paraguay); Juventud del Movimiento Nuevo Peru; Juventud de Marea Socialista (Venezuela); Juventude Quebeq Solidarie (Canadá); Juventude Bloco de Esquerda (Portugal); Juventud Marxista (México), Comité de Lucha del Politécnico (México)
     </p>
 HTML
 ];

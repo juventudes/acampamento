@@ -1,6 +1,7 @@
 <?php
 
 return [
+  'title' => 'Schedule of the International Camp of the Youth in Fight (Rio, April 13th-16th)',
   'html' => <<<HTML
     <div class="tabs">
       <ul>

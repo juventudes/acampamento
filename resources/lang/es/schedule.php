@@ -1,6 +1,7 @@
 <?php
 
 return [
+  'title' => 'Actividades programadas en el Campamento Internacional de las Juventudes en Lucha (Rio, 13 a 16 de abril)',
   'html' => <<<HTML
     <div class="tabs">
       <ul>

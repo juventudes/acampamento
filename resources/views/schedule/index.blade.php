@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 <?php
-$title = trans('menu.schedule');
+$title = trans('schedule.title');
 
 $path = Request::path();
 if ($path[0] != '/') {
@@ -27,7 +27,7 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
 @section('content')
   <main class="schedule">
     <div class="max-width-3 mx-auto p2">
-      <h1 style="line-height: 1.15em;">{{ $title }}</h1>
+      <h1 style="line-height: 1.15em;">{{ trans('menu.schedule') }}</h1>
 
       <div class="share-buttons">
         <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ trans('manifesto.title') }}" data-size="large"></a>

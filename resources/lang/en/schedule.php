@@ -56,7 +56,7 @@ return [
           <tr>
             <td>2pm</td>
             <td>
-              LAUNCH of the manifesto <strong>“Black Lives Matter”</strong><br />
+              LAUNCH of the manifesto <strong>“Vidas Negras Importam”</strong><br />
               <small>Where? Pedra do Sal</small>
             </td>
           </tr>

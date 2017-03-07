@@ -16,17 +16,18 @@ return [
 
         <table>
           <tr>
-            <td>18h</td>
+            <td>17h</td>
             <td>
-              ATO de abertura <strong>“Nenhum Ser Humano É Ilegal”</strong><br />
-              <small>Local: Embaixada dos EUA (centro do Rio)</small>
+              CAMINHADA <strong>“Nenhum Ser Humano É Ilegal”</strong><br />
+              <small>Local: da Embaixada dos EUA à Cinelândia</small>
             </td>
           </tr>
           <tr>
-            <td>22h</td>
+            <td>19h</td>
             <td>
-              ENTREVISTA com <strong>Melike Yasar</strong> (representante do Movimento Internacional de Mulheres Curdas)<br />
-              <small>Local: Galpão Ação Cidadania</small>
+              DEBATE <strong>“Por um mundo sem muros e sem fronteiras”</strong><br />
+              com Luciana Genro, Marcelo Freixo*, Melike Yasar, Jurema Werneck*, Neal Meyer<br />
+              <small>Local: Cinelândia</small>
             </td>
           </tr>
         </table>
@@ -37,19 +38,24 @@ return [
 
         <table>
           <tr>
-            <td>9h30</td>
+            <td>9h</td>
             <td>
-              VÍDEO <strong>“Juntos: a juventude indignada”</strong><br />
+              VÍDEO-DOCUMENTÁRIO <strong>“Juntos: a juventude indignada”</strong><br />
               <small>Local: Galpão Ação Cidadania</small>
             </td>
           </tr>
           <tr>
             <td>10h</td>
             <td>
-              MESA 1: <strong>“Da Revolução Russa aos governos de Trump e Temer”</strong><br />
-              <em>Primeiro ato:</em> com personalidades e organizações internacionais<br />
-              <em>Às 11h:</em> LANÇAMENTO do Livro “A Atualidade de Lenin: a revolução como necessidade”<br />
-              <em>Segundo ato:</em> com personalidades e organizações nacionais<br />
+              DEBATE <strong>“Nem Trump, nem Temer!”</strong><br />
+              com Pedro Fuentes, Gregório Duvivier, Patrisse Cullors, Winnie Bueno e representações dos países construtores do evento<br />
+              <small>Local: Galpão Ação Cidadania</small>
+            </td>
+          </tr>
+          <tr>
+            <td>11h30</td>
+            <td>
+              APRESENTAÇÃO da Cartilha “100 anos da Revolução Russa”<br />
               <small>Local: Galpão Ação Cidadania</small>
             </td>
           </tr>
@@ -70,8 +76,15 @@ return [
           <tr>
             <td>19h</td>
             <td>
-              MESA 2: <strong>“Ativismo Digital: mobilizando a sociedade em rede”</strong><br />
-              <em>Às 20h:</em> FILME “Snowden” (Oliver Stone)<br />
+              DEBATE <strong>“Ativismo Digital: mobilizando a sociedade em rede”</strong><br />
+              com Winnie Wong, Glenn Greenwald, David Miranda, Natália Viana*, Gabriela Moura*, Gizele Martins*<br />
+              <small>Local: Cine Odeon (Cinelândia)</small>
+            </td>
+          </tr>
+          <tr>
+            <td>20h</td>
+            <td>
+              FILME <strong>“Citizenfour”</strong> (Laura Poitras)<br />
               <small>Local: Cine Odeon (Cinelândia)</small>
             </td>
           </tr>
@@ -90,51 +103,37 @@ return [
 
         <table>
           <tr>
-            <td>9h30</td>
-            <td>
-              LANÇAMENTO da Revista <strong>“10 anos do Emancipa”</strong><br />
-              <small>Local: Galpão Ação Cidadania</small>
-            </td>
-          </tr>
-          <tr>
-            <td>10h</td>
-            <td>
-              APRESENTAÇÃO <strong>“Ocupa Tudo: a luta dos estudantes secundaristas”</strong><br />
-              <small>Local: Galpão Ação Cidadania</small>
-            </td>
-          </tr>
-          <tr>
             <td>10h30</td>
             <td>
-              MESA 3: <strong>“Educação não transforma o mundo. Educação muda pessoas. Pessoas transformam o mundo”</strong><br />
-              <small>Local: Galpão Ação Cidadania</small>
+              PAINEIS e oficinas &mdash; em breve a programação completa!
             </td>
           </tr>
           <tr>
             <td>14h</td>
             <td>
-              MESA 4: <strong>“As mulheres revolucionando a política”</strong><br />
+              DEBATE <strong>“Mulheres revolucionando a política”</strong><br />
+              com Joanna Maranhão, Bárbara Aires, Sâmia Bomfim, Fernanda Melchionna, Talíria Petrone*<br />
               <small>Local: Galpão Ação Cidadania</small>
             </td>
           </tr>
           <tr>
-            <td>15h</td>
+            <td>19h</td>
             <td>
-              GRUPOS de Discussão<br />
+              PERFORMANCE sobre a luta dos secundaristas
+            </td>
+          </tr>
+          <tr>
+            <td>19h30</td>
+            <td>
+              DEBATE <strong>“Educação não transforma o mundo. Educação muda pessoas. Pessoas transformam o mundo”</strong><br />
+              com Chico Alencar, Ana Julia Ribeiro, Maurício Costa, Sueli Carneiro*, Eblin Farage*, Josemar Carvalho, Waldemar Boff*, Ella Mahony<br />
               <small>Local: Galpão Ação Cidadania</small>
             </td>
           </tr>
           <tr>
-            <td>18h</td>
+            <td>23h</td>
             <td>
-              PAINÉIS TEMÁTICOS E OFICINAS<br />
-              <small>Local: Galpão Ação Cidadania</small>
-            </td>
-          </tr>
-          <tr>
-            <td>22h</td>
-            <td>
-              FESTIVAL DE CULTURA<br />
+              FESTIVAL Cultural &mdash; apresentações diversas e lançamento do livro do Juntos<br />
               <small>Local: Galpão Ação Cidadania</small>
             </td>
           </tr>
@@ -146,34 +145,20 @@ return [
 
         <table>
           <tr>
-            <td>9h30</td>
-            <td>
-              CELEBRAÇÃO dos Mártires<br />
-              <small>Local: Praça Mauá</small>
-            </td>
-          </tr>
-          <tr>
             <td>10h</td>
             <td>
-              MESA 5: <strong>“A luta da juventude indignada no Brasil e no Mundo”</strong><br />
+              PLENÁRIA final<br />
               <small>Local: Galpão Ação Cidadania</small>
             </td>
           </tr>
-          <tr>
-            <td>11h</td>
-            <td>
-              ASSEMBLEIA Final<br />
-              <small>Local: Galpão Ação Cidadania</small>
-            </td>
-          </tr>
-          <tr><td>15h</td><td>PRAIA!</td></tr>
         </table>
       </div>
     </div>
 
-    <p>
-      <strong>Convidados internacionais:</strong>
-      Melike Yasar (Curdistão Livre); Edward Snowden (via vídeo); Winnie Wong (Mulheres por Sanders, EUA); Anticapitalistas Podemos (Espanha); Veronika Mendoza (Movimiento Nuevo Perú); Glenn Gleenwald (The Intercept); Vilma Ripoll “Juntas y a la Izquierda” (Argentina); Youth Democratic Socialists of America (EUA); Marxist Student Federation (Inglaterra); Juventud Socialista MST (Argentina); BAM, Izquierda Autónoma, Revolución Democrática, UNE (Chile); Jóvenes Alternativa Socialista (Paraguai); Juventud del Movimiento Nuevo Peru; Juventud de Marea Socialista (Venezuela); Juventude Quebeq Solidarie (Canadá); Juventude Bloco de Esquerda (Portugal); Juventud Marxista (México), Comité de Lucha del Politécnico (México)
-    </p>
+    <p><strong>CONVIDADOS INTERNACIONAIS</strong> | Melike Yasar (Curdistão Livre); Edward Snowden (via vídeo); Neal Meyer (Young Democratic Socialists, EUA); Ella Mahony (Jacobin Magazine, EUA); Winnie Wong (People for Sanders, EUA); Patrisse Cullors (Black Lives Matter, USA); Anticapitalistas Podemos (Espanha); Glenn Gleenwald (The Intercept); Vilma Ripoll (Juntas y a la Izquierda, Argentina); Marxist Student Federation (Inglaterra); Juventud Socialista MST (Argentina); BAM, Izquierda Autónoma, Revolución Democrática, UNE (Chile); Jóvenes Alternativa Socialista (Paraguai); Juventud del Movimiento Nuevo Peru; Juventud de Marea Socialista (Venezuela); Juventude Quebéc Solidaire (Canadá); Juventude Bloco de Esquerda (Portugal); Juventud Marxista (México), Comité de Lucha del Politécnico (México).</p>
+
+    <p><strong>CONVIDADOS NACIONAIS</strong> | Luciana Genro, Chico Alencar, Marcelo Freixo*, Djamila Ribeiro*, Gregório Duvivier*, Joanna Maranhão, Luciana Boiteux*, Marielle Franco* (vereadora RJ), David Miranda (vereador RJ), Sâmia Bomfim (vereadora SP), Roberto Robaina (vereador PoA), Fernanda Melchionna (vereadora PoA), Cida Falabella (vereadora BH), Talíria Petrone* (vereadora Niterói), Ivan Moraes (vereador Recife), Natália Viana* (Agência Pública), Gabriela Moura* (Coletivo Não Me Kahlo), Gizele Martins* (Comunicadora Comunitária e Popular), Bárbara Aires (Consultora de Gênero e Diversidade Sexual), Waldemar Boff* (Educador Popular), Winnie Bueno (Preta Expressa), Mônica Seixas (Jornalista), Jurema Wernek* (Anistia Internacional), Ana Júlia Ribeiro (estudante secundarista), Sueli Carneiro* (Geledes - Instituto da Mulher Negra), Eblin Farage* (ANDES), Josemar Carvalho (Professor do Estado - RJ), Maurício Costa (Rede Emancipa).</p>
+
+    <p><small><em>* &mdash; a confirmar</em></small></p>
 HTML
 ];

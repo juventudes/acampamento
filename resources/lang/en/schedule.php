@@ -16,17 +16,18 @@ return [
 
         <table>
           <tr>
-            <td>6pm</td>
+            <td>5pm</td>
             <td>
-              Opening ACT <strong>“No human being is illegal”</strong><br />
-              <small>Where? US Embassy (center of Rio)</small>
+              WALK <strong>“No human being is illegal”</strong><br />
+              <small>Where? From the US Embassy to Cinelândia</small>
             </td>
           </tr>
           <tr>
-            <td>10pm</td>
+            <td>7pm</td>
             <td>
-              INTERVIEW with <strong>Melike Yasar</strong> (representative of the Women's Movement of Kurdistan)<br />
-              <small>Where? Galpão Ação Cidadania</small>
+              DEBATE <strong>“For a world without walls and without borders”</strong><br />
+              with Luciana Genro, Marcelo Freixo*, Melike Yasar, Jurema Werneck*, Neal Meyer<br />
+              <small>Where? Cinelândia</small>
             </td>
           </tr>
         </table>
@@ -46,10 +47,15 @@ return [
           <tr>
             <td>10am</td>
             <td>
-              ROUND TABLE 1: <strong>“From the Russian Revolution to the governments of Trump and Temer”</strong><br />
-              <em>First part:</em> international people and organizations<br />
-              <em>At 11am:</em> LAUNCH of the book “The actuality of Lenin: the revolution as a necessity”<br />
-              <em>Second part:</em> Brazilian people and organizations<br />
+              DEBATE <strong>“Neither Trump nor Temer!”</strong><br />
+              with Pedro Fuentes, Gregório Duvivier, Patrisse Cullors, Winnie Bueno and representatives from the countries<br />
+              <small>Where? Galpão Ação Cidadania</small>
+            </td>
+          </tr>
+          <tr>
+            <td>11:30am</td>
+            <td>
+              PRESENTATION of the booklet “100 years of the Russian Revolution”<br />
               <small>Where? Galpão Ação Cidadania</small>
             </td>
           </tr>
@@ -70,8 +76,15 @@ return [
           <tr>
             <td>7pm</td>
             <td>
-              ROUND TABLE 2: <strong>“Digital activism: mobilizing the network society”</strong><br />
-              <em>At 8pm:</em> MOVIE “Snowden” (Oliver Stone)<br />
+              DEBATE <strong>“Digital activism: mobilizing the network society”</strong><br />
+              with Winnie Wong, Glenn Greenwald, David Miranda, Natália Viana*, Gabriela Moura*, Gizele Martins*<br />
+              <small>Where? Cine Odeon (Cinelândia)</small>
+            </td>
+          </tr>
+          <tr>
+            <td>8pm</td>
+            <td>
+              MOVIE <strong>“Citizenfour”</strong> (Laura Poitras)<br />
               <small>Where? Cine Odeon (Cinelândia)</small>
             </td>
           </tr>
@@ -90,51 +103,37 @@ return [
 
         <table>
           <tr>
-            <td>9:30am</td>
-            <td>
-              LAUNCH of the Magazine <strong>“10 years of Emancipa”</strong> (organization of popular preparatory courses)<br />
-              <small>Where? Galpão Ação Cidadania</small>
-            </td>
-          </tr>
-          <tr>
-            <td>10am</td>
-            <td>
-              PRESENTATION <strong>“Occupy Everything: the struggle of the high school students”</strong><br />
-              <small>Where? Galpão Ação Cidadania</small>
-            </td>
-          </tr>
-          <tr>
             <td>10:30am</td>
             <td>
-              ROUND TABLE 3: <strong>“Education does not transform the world. Education changes people. People transform the world.”</strong><br />
-              <small>Where? Galpão Ação Cidadania</small>
+              PANELS and workshops &mdash; complete schedule is coming soon!
             </td>
           </tr>
           <tr>
             <td>2pm</td>
             <td>
-              ROUND TABLE 4: <strong>“The women revolutionizing politics”</strong><br />
+              DEBATE <strong>“Women revolutionizing politics”</strong><br />
+              with Joanna Maranhão, Bárbara Aires, Sâmia Bomfim, Fernanda Melchionna, Talíria Petrone*<br />
               <small>Where? Galpão Ação Cidadania</small>
             </td>
           </tr>
           <tr>
-            <td>3pm</td>
+            <td>7pm</td>
             <td>
-              Discussion GROUPS<br />
+              PERFORMANCE about the struggle of high school students
+            </td>
+          </tr>
+          <tr>
+            <td>7:30pm</td>
+            <td>
+              DEBATE <strong>“Education does not transform the world. Education changes people. People transform the world.”</strong><br />
+              with Chico Alencar, Ana Julia Ribeiro, Maurício Costa, Sueli Carneiro*, Eblin Farage*, Josemar Carvalho, Waldemar Boff*, Ella Mahony<br />
               <small>Where? Galpão Ação Cidadania</small>
             </td>
           </tr>
           <tr>
-            <td>6pm</td>
+            <td>11pm</td>
             <td>
-              THEMATIC PANELS AND WORKSHOPS<br />
-              <small>Where? Galpão Ação Cidadania</small>
-            </td>
-          </tr>
-          <tr>
-            <td>10pm</td>
-            <td>
-              CULTURE FESTIVAL<br />
+              Cultural FESTIVAL &mdash; various presentations and launch of Juntos' book<br />
               <small>Where? Galpão Ação Cidadania</small>
             </td>
           </tr>
@@ -146,34 +145,20 @@ return [
 
         <table>
           <tr>
-            <td>9:30am</td>
-            <td>
-              CELEBRATION of the Martyrs<br />
-              <small>Where? Praça Mauá</small>
-            </td>
-          </tr>
-          <tr>
-            <td>10am</td>
-            <td>
-              ROUND TABLE 5: <strong>“The struggle of the indignant youth in Brazil and in the world”</strong><br />
-              <small>Where? Galpão Ação Cidadania</small>
-            </td>
-          </tr>
-          <tr>
             <td>11am</td>
             <td>
               Final ASSEMBLY<br />
               <small>Where? Galpão Ação Cidadania</small>
             </td>
           </tr>
-          <tr><td>3pm</td><td>BEACH!</td></tr>
         </table>
       </div>
     </div>
 
-    <p>
-      <strong>International Guests:</strong>
-      Melike Yasar (Free Kurdistan); Edward Snowden (via video); Winnie Wong (Women for Sanders, USA); Anticapitalistas Podemos (Spain); Veronika Mendoza (Movimiento Nuevo Perú); Glenn Gleenwald (The Intercept); Vilma Ripoll “Juntas y a la Izquierda” (Argentina); Youth Democratic Socialists of America (USA); Marxist Student Federation (UK); Juventud Socialista MST (Argentina); BAM, Izquierda Autónoma, Revolución Democrática, UNE (Chile); Jóvenes Alternativa Socialista (Paraguay); Juventud del Movimiento Nuevo Peru; Juventud de Marea Socialista (Venezuela); Québec Solidaire Youth (Canada); Juventude Bloco de Esquerda (Portugal); Juventud Marxista (Mexico), Comité de Lucha del Politécnico (Mexico)
-    </p>
+    <p><strong>INTERNATIONAL GUESTS</strong> | Melike Yasar (Free Kurdistan); Edward Snowden (via video); Neal Meyer (Young Democratic Socialists, USA); Ella Mahony (Jacobin Magazine, USA); Winnie Wong (People for Sanders, USA); Patrisse Cullors (Black Lives Matter, USA); Anticapitalistas Podemos (Espanha); Glenn Gleenwald (The Intercept); Vilma Ripoll (Juntas y a la Izquierda, Argentina); Marxist Student Federation (UK); Juventud Socialista MST (Argentina); BAM, Izquierda Autónoma, Revolución Democrática, UNE (Chile); Jóvenes Alternativa Socialista (Paraguay); Juventud del Movimiento Nuevo Peru (Peru); Juventud de Marea Socialista (Venezuela); Juventude Quebéc Solidaire (Canada); Juventude Bloco de Esquerda (Portugal); Juventud Marxista (Mexico), Comité de Lucha del Politécnico (Mexico).</p>
+
+    <p><strong>NATIONAL GUESTS</strong> | Luciana Genro, Chico Alencar, Marcelo Freixo*, Djamila Ribeiro*, Gregório Duvivier*, Joanna Maranhão, Luciana Boiteux*, Marielle Franco* (vereadora RJ), David Miranda (vereador RJ), Sâmia Bomfim (vereadora SP), Roberto Robaina (vereador PoA), Fernanda Melchionna (vereadora PoA), Cida Falabella (vereadora BH), Talíria Petrone* (vereadora Niterói), Ivan Moraes (vereador Recife), Natália Viana* (Agência Pública), Gabriela Moura* (Coletivo Não Me Kahlo), Gizele Martins* (Comunicadora Comunitária e Popular), Bárbara Aires (Consultora de Gênero e Diversidade Sexual), Waldemar Boff* (Educador Popular), Winnie Bueno (Preta Expressa), Mônica Seixas (Jornalista), Jurema Wernek* (Anistia Internacional), Ana Júlia Ribeiro (estudante secundarista), Sueli Carneiro* (Geledes - Instituto da Mulher Negra), Eblin Farage* (ANDES), Josemar Carvalho (Professor do Estado - RJ), Maurício Costa (Rede Emancipa).</p>
+
+    <p><small><em>* &mdash; to be confirmed</em></small></p>
 HTML
 ];

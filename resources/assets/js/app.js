@@ -35,6 +35,8 @@ $(function() {
     }
   }).trigger("focusout");
 
+  $("input[class='date']").mask("99/99/9999");
+
   // Tabs
   $(".tabs").tabs();
 });

@@ -61,7 +61,7 @@ img {
   max-width: 100%;
 }
 
-html, input, select, button {
+html, input, select, button, textarea {
   color: rgba(0, 0, 0, 0.9);
   font: 18px 'charter', Georgia, Cambria, "Times New Roman", Times, serif;
   line-height: 1.58em;
@@ -147,7 +147,7 @@ label {
   font-size: 75%;
 }
 
-input, select, button {
+input[type='text'], input[type='email'], select, button, textarea {
   background: #fff;
   border: 0;
   display: block;
@@ -234,3 +234,12 @@ button {
     margin: 0 0 10px;
   }
 }
+
+#svg-map { display: block;max-width: 100%; margin: 20px auto; width: 720px; }
+#svg-map path { fill:#ffdc00}
+#svg-map text { fill:#000; font-size:12px; @extend .sans; cursor:pointer }
+#svg-map a{ text-decoration:none }
+#svg-map a:hover { cursor:pointer; text-decoration:none }
+#svg-map a:hover path{ fill:#FFAC00 !important }
+#svg-map .circle { fill:#fffc20}
+#svg-map a:hover .circle { fill:#FFAC00 !important; cursor:pointer }

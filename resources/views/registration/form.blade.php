@@ -31,7 +31,7 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
 
         <p>A juventude em luta do Brasil e do mundo vai organizar a indignação, potencializar a resistência e construir a esperança no Acampamento (Inter)Nacional das Juventudes em Luta! Para se inscrever é só ler com atenção e preencher o formulário abaixo.</p>
 
-        <p>Nosso Acampamento é construído coletivamente e auto-financiado. Não recebemos dinheiro de nenhuma empresa ou partido, por isso cobramos o valor de <strong>R$ <?php echo number_format($preco, 2, ',', '.'); ?></strong> para a inscrição, incluindo hospedagem e alimentação. Se você não puder pagar esse preço, não se preocupe: informe nas observações e nós entraremos em contato.</p>
+        <p>Nosso Acampamento é construído coletivamente e auto-financiado. Não recebemos dinheiro de nenhuma empresa, por isso cobramos o valor de <strong>R$ <?php echo number_format($preco, 2, ',', '.'); ?></strong> para a inscrição, incluindo hospedagem e alimentação. Se você não puder pagar esse preço, não se preocupe: informe nas observações e nós entraremos em contato.</p>
 
         <p>Para informação sobre transporte e caravanas, entre em contato conosco por meio do e-mail <a href="mailto:juntos@juntos.org.br" class="yellow">juntos@juntos.org.br</a>.</p>
       </div>

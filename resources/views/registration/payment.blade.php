@@ -29,7 +29,7 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
       <div class="max-width-3 mx-auto p2">
         <p><strong><?php echo $user_name; ?>, que bom poder contar contigo na construção dessa alternativa contra os poderosos!</strong></p>
 
-        <p>A primeira parte de sua inscrição já foi efetuada. A segunda e última parte é o pagamento. Como nosso acampamento é auto-financiado e não conta com dinheiro de nenhuma empresa ou partido, precisamos da sua contribuição também nessa parte.</p>
+        <p>A primeira parte de sua inscrição já foi efetuada. A segunda e última parte é o pagamento. Como nosso acampamento é auto-financiado e não conta com dinheiro de nenhuma empresa, precisamos da sua contribuição também nessa parte.</p>
 
         <p>O dinheiro será utilizado para a viabilização da estrutura: aluguel do local para acamparmos com segurança, as refeições que serão servidas ao longo dos dias, a infra-estrutura para a cobertura e viabilidade das oficinas, mesas de debate e até mesmo a festa.</p>
 

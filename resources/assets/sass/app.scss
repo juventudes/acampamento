@@ -250,3 +250,8 @@ button {
 #svg-map a:hover path{ fill:#FFAC00 !important }
 #svg-map .circle { fill:#fffc20}
 #svg-map a:hover .circle { fill:#FFAC00 !important; cursor:pointer }
+
+.error {
+  color: #c00;
+  font-weight: bold;
+}

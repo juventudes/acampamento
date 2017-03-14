@@ -14,6 +14,17 @@ use Illuminate\Support\Facades\Validator;
 class RegistrationController extends Controller
 {
   public function __construct() {
+    \PagSeguro\Library::initialize();
+    if (\App::environment('production')) {
+      \PagSeguro\Configuration\Configure::setEnvironment('production');
+      \PagSeguro\Configuration\Configure::setLog(true, '/var/www/pagseguro.log');
+    } else {
+      \PagSeguro\Configuration\Configure::setEnvironment('sandbox');
+    }
+    \PagSeguro\Configuration\Configure::setAccountCredentials(env('PAGSEGURO_EMAIL'), env('PAGSEGURO_TOKEN'));
+
+    \PagSeguro\Configuration\Configure::setCharset('UTF-8');
+
     $this->estados = [
       'to' => 'Tocantins',
       'ba' => 'Bahia',
@@ -88,17 +99,6 @@ class RegistrationController extends Controller
   }
 
   public function get_pagseguro_code($price) {
-    \PagSeguro\Library::initialize();
-    if (\App::environment('production')) {
-      \PagSeguro\Configuration\Configure::setEnvironment('production');
-      \PagSeguro\Configuration\Configure::setLog(true, '/var/www/pagseguro.log');
-    } else {
-      \PagSeguro\Configuration\Configure::setEnvironment('sandbox');
-    }
-    \PagSeguro\Configuration\Configure::setAccountCredentials(env('PAGSEGURO_EMAIL'), env('PAGSEGURO_TOKEN'));
-
-    \PagSeguro\Configuration\Configure::setCharset('UTF-8');
-
     try {
       $sessionCode = \PagSeguro\Services\Session::create(\PagSeguro\Configuration\Configure::getAccountCredentials());
     } catch (Exception $e) {
@@ -210,6 +210,12 @@ class RegistrationController extends Controller
 
   public function notification(Request $request) {
     file_put_contents("/tmp/notifications_test", date("r: ") . serialize($request->all()) . "\n", FILE_APPEND);
+    try {
+      $response = \PagSeguro\Services\Transactions\Notification::check(\PagSeguro\Configuration\Configure::getAccountCredentials());
+      file_put_contents("/tmp/notifications_test", serialize($response) . "\n", FILE_APPEND);
+    } catch (Exception $e) {
+      file_put_contents("/tmp/notifications_test", "exception " . $e->getMessage() . "\n", FILE_APPEND);
+    }
     return null;
   }
 }

@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Registration;
 use Illuminate\Http\Request;
 
+use Mail;
+
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
@@ -115,6 +117,17 @@ class RegistrationController extends Controller
     }
   }
 
+  public function send_form_confirmation_email($nome, $email, $preco, $link) {
+    Mail::send(
+      'emails.form_confirmation',
+      [ 'nome' => $nome, 'email' => $email, 'preco' => $preco, 'link' => $link ],
+      function ($m) use ($nome, $email) {
+        $m->from('juntos@juntos.org.br', 'Comissão do Acampamento');
+        $m->to($email, $nome)->subject('Efetue o pagamento para confirmar sua inscrição');
+      }
+    );
+  }
+
   // Part 1
   public function index() {
     return view('registration.index');
@@ -168,6 +181,7 @@ class RegistrationController extends Controller
     $registration = new Registration();
     $registration->fill($request->all());
     if ($registration->save()) {
+      $this->send_form_confirmation_email($registration->nome, $registration->email, $this->precos[$registration->uf], "https://acampamento.juntos.org.br/registration/code/" . $registration->code);
       return redirect("/registration/code/" . $registration->code);
     }
 

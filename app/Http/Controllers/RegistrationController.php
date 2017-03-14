@@ -123,6 +123,11 @@ class RegistrationController extends Controller
 
   // Parts 3, 4
   public function code($code) {
+    /*
+    return view('registration.done')->with([
+      'user_name' => 'Tiago Madeira',
+    ]);
+    */
     // TODO: use code, 404 if code does not exist, go to registration.done if payment is done
     return view('registration.payment')->with([
       'user_name' => 'Tiago Madeira',

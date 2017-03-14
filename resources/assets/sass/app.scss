@@ -69,6 +69,13 @@ html, input, select, button, textarea {
   @include breakpoint($tablet) {
     font-size: 21px;
   }
+
+  font-feature-settings: "liga";
+  text-rendering: optimizelegibility;
+
+  // Fix Mac OS X font weight
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {

@@ -95,6 +95,7 @@ class RegistrationController extends Controller
     \PagSeguro\Configuration\Configure::setAccountCredentials(env('PAGSEGURO_EMAIL'), env('PAGSEGURO_TOKEN'));
 
     \PagSeguro\Configuration\Configure::setCharset('UTF-8');
+    \PagSeguro\Configuration\Configure::setLog(true, '/var/www/pagseguro.log');
 
     try {
       $sessionCode = \PagSeguro\Services\Session::create(\PagSeguro\Configuration\Configure::getAccountCredentials());

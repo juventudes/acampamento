@@ -67,7 +67,7 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
 
         <p>
           Inscrição no <strong>Acampamento (Inter)Nacional das Juventudes em Luta</strong><br />
-          Participante: <strong><?php echo $user_name; ?></strong> (<?php echo $user_city; ?>, <?php echo $user_uf; ?>)<br />
+          Participante: <strong><?php echo $user_name; ?></strong> (<?php echo $user_city; ?>, <?php echo strtoupper($user_uf); ?>)<br />
           Valor: <strong>R$ <?php echo number_format($price, 2, ',', '.'); ?></strong>
         </p>
 

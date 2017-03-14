@@ -85,8 +85,33 @@ class RegistrationController extends Controller
     ];
   }
 
-  public function get_pagseguro_code() {
-    // TODO
+  public function get_pagseguro_code($price) {
+    \PagSeguro\Library::initialize();
+    if (\App::environment('production')) {
+      \PagSeguro\Configuration\Configure::setEnvironment('production');
+    } else {
+      \PagSeguro\Configuration\Configure::setEnvironment('sandbox');
+    }
+    \PagSeguro\Configuration\Configure::setAccountCredentials(env('PAGSEGURO_EMAIL'), env('PAGSEGURO_TOKEN'));
+
+    \PagSeguro\Configuration\Configure::setCharset('UTF-8');
+
+    try {
+      $sessionCode = \PagSeguro\Services\Session::create(\PagSeguro\Configuration\Configure::getAccountCredentials());
+    } catch (Exception $e) {
+      die("Erro fatal: " . $e->getMessage());
+    }
+
+    $payment = new \PagSeguro\Domains\Requests\Payment();
+    $payment->addItems()->withParameters('0001', 'Inscricao no Acampamento Internacional das Juventudes em Luta', 1, number_format($price, 2, '.', ''));
+    $payment->setCurrency("BRL");
+
+    try {
+      $result = $payment->register(\PagSeguro\Configuration\Configure::getAccountCredentials(), true);
+      return $result->getCode();
+    } catch (Exception $e) {
+      die($e->getMessage());
+    }
   }
 
   // Part 1
@@ -108,6 +133,10 @@ class RegistrationController extends Controller
 
   // Transition 2--3
   public function store(Request $request) {
+    if (!isset($this->precos[$request->uf])) {
+      die("Erro fatal: Estado nao existe.");
+    }
+
     $telefone = ((object) $request->all())->telefone;
     $telefone = preg_replace('/[^0-9]/', '', $telefone);
 
@@ -125,7 +154,7 @@ class RegistrationController extends Controller
         ->withInput();
     }
 
-    $code = $this->get_pagseguro_code();
+    $code = $this->get_pagseguro_code($this->precos[$request->uf]);
     if (!$code) {
       // TODO: mail admin
       return redirect()
@@ -163,4 +192,6 @@ class RegistrationController extends Controller
       ]);
     }
   }
+
+  // TODO: pagseguro redirect URL, notification URL
 }

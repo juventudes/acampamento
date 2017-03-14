@@ -26,7 +26,7 @@ return [
             <td>7pm</td>
             <td>
               DEBATE <strong>“For a world without walls and without borders”</strong><br />
-              with Luciana Genro, Marcelo Freixo*, Melike Yasar, Jurema Werneck*, Neal Meyer<br />
+              with Luciana Genro, Marcelo Freixo, Melike Yasar, Jurema Werneck*, Neal Meyer and Black Lives Matter<br />
               <small>Where? Cinelândia</small>
             </td>
           </tr>
@@ -48,7 +48,7 @@ return [
             <td>10am</td>
             <td>
               DEBATE <strong>“Neither Trump nor Temer!”</strong><br />
-              with Pedro Fuentes, Gregório Duvivier, Patrisse Cullors, Winnie Bueno and representatives from the countries<br />
+              with Pedro Fuentes, Gregório Duvivier*, Patrisse Cullors, Winnie Bueno and representatives from the countries<br />
               <small>Where? Galpão Ação Cidadania</small>
             </td>
           </tr>
@@ -63,6 +63,7 @@ return [
             <td>2pm</td>
             <td>
               LAUNCH of the manifesto <strong>“Vidas Negras Importam”</strong><br />
+              with Patrisse Cullors, Winnie Bueno, Gizele Martins, Joice Berth and Marielle Franco*<br />
               <small>Where? Pedra do Sal</small>
             </td>
           </tr>
@@ -77,7 +78,7 @@ return [
             <td>7pm</td>
             <td>
               DEBATE <strong>“Digital activism: mobilizing the network society”</strong><br />
-              with Winnie Wong, Glenn Greenwald, David Miranda, Natália Viana*, Gabriela Moura*, Gizele Martins*<br />
+              with Winnie Wong, Glenn Greenwald, David Miranda, Natália Viana*, Gabriela Moura*, Gizele Martins<br />
               <small>Where? Cine Odeon (Cinelândia)</small>
             </td>
           </tr>
@@ -105,7 +106,8 @@ return [
           <tr>
             <td>10:30am</td>
             <td>
-              PANELS and workshops &mdash; complete schedule is coming soon!
+              PANELS and workshops &mdash; complete schedule is coming soon!<br />
+              with Cida Falabella, Tati Ribeiro, Linna Ramos, Ivan Moraes, Luciana Boiteux*
             </td>
           </tr>
           <tr>
@@ -126,7 +128,7 @@ return [
             <td>7:30pm</td>
             <td>
               DEBATE <strong>“Education does not transform the world. Education changes people. People transform the world.”</strong><br />
-              with Chico Alencar, Ana Julia Ribeiro, Maurício Costa, Sueli Carneiro*, Eblin Farage*, Josemar Carvalho, Waldemar Boff*, Ella Mahony<br />
+              with Chico Alencar, Ana Julia Ribeiro, Maurício Costa, Helena Teodoro*, Eblin Farage, Josemar Carvalho, Waldemar Boff, Ella Mahony<br />
               <small>Where? Galpão Ação Cidadania</small>
             </td>
           </tr>
@@ -134,6 +136,7 @@ return [
             <td>11pm</td>
             <td>
               Cultural FESTIVAL &mdash; various presentations and launch of Juntos' book<br />
+              with MC Carol*, Zélia Duncan*, Doralice Gonzaga, MC Ana Paula Lisboa*, MC Linn da Quebrada*, Roda de Rima Vila Isabel/RJ<br />
               <small>Where? Galpão Ação Cidadania</small>
             </td>
           </tr>
@@ -157,7 +160,7 @@ return [
 
     <p><strong>INTERNATIONAL GUESTS</strong> | Melike Yasar (Free Kurdistan); Edward Snowden (via video); Neal Meyer (Young Democratic Socialists, USA); Ella Mahony (Jacobin Magazine, USA); Winnie Wong (People for Sanders, USA); Patrisse Cullors (Black Lives Matter, USA); Anticapitalistas Podemos (Espanha); Glenn Gleenwald (The Intercept); Vilma Ripoll (Juntas y a la Izquierda, Argentina); Marxist Student Federation (UK); Juventud Socialista MST (Argentina); BAM, Izquierda Autónoma, Revolución Democrática, UNE (Chile); Jóvenes Alternativa Socialista (Paraguay); Juventud del Movimiento Nuevo Peru (Peru); Juventud de Marea Socialista (Venezuela); Juventude Quebéc Solidaire (Canada); Juventude Bloco de Esquerda (Portugal); Juventud Marxista (Mexico), Comité de Lucha del Politécnico (Mexico).</p>
 
-    <p><strong>NATIONAL GUESTS</strong> | Luciana Genro, Chico Alencar, Marcelo Freixo*, Djamila Ribeiro*, Gregório Duvivier*, Joanna Maranhão, Luciana Boiteux*, Marielle Franco* (vereadora RJ), David Miranda (vereador RJ), Sâmia Bomfim (vereadora SP), Roberto Robaina (vereador PoA), Fernanda Melchionna (vereadora PoA), Cida Falabella (vereadora BH), Talíria Petrone* (vereadora Niterói), Ivan Moraes (vereador Recife), Natália Viana* (Agência Pública), Gabriela Moura* (Coletivo Não Me Kahlo), Gizele Martins* (Comunicadora Comunitária e Popular), Bárbara Aires (Consultora de Gênero e Diversidade Sexual), Waldemar Boff* (Educador Popular), Winnie Bueno (Preta Expressa), Mônica Seixas (Jornalista), Jurema Wernek* (Anistia Internacional), Ana Júlia Ribeiro (estudante secundarista), Sueli Carneiro* (Geledes - Instituto da Mulher Negra), Eblin Farage* (ANDES), Josemar Carvalho (Professor do Estado - RJ), Maurício Costa (Rede Emancipa).</p>
+    <p><strong>NATIONAL GUESTS</strong> | Luciana Genro, Chico Alencar, Marcelo Freixo, Djamila Ribeiro*, Gregório Duvivier*, Joanna Maranhão, Luciana Boiteux*, Marielle Franco* (vereadora RJ), David Miranda (vereador RJ), Sâmia Bomfim (vereadora SP), Roberto Robaina (vereador PoA), Fernanda Melchionna (vereadora PoA), Cida Falabella (vereadora BH), Talíria Petrone* (vereadora Niterói), Marielle Franco (vereadora RJ), Ivan Moraes (vereador Recife), Natália Viana* (Agência Pública), Gabriela Moura* (Coletivo Não Me Kahlo), Gizele Martins (Comunicadora Comunitária e Popular), Bárbara Aires (Consultora de Gênero e Diversidade Sexual), Waldemar Boff (Educador Popular), Winnie Bueno (Preta Expressa), Mônica Seixas (Jornalista), Joice Berth (urbanista e ativista feminista negra), Jurema Wernek* (Anistia Internacional), Ana Júlia Ribeiro (estudante secundarista), Helena Teodoro*, Eblin Farage (ANDES), Josemar Carvalho (Professor do Estado - RJ), Maurício Costa (Rede Emancipa), Tati Ribeiro, Linna Ramos, MC Carol*, Zélia Duncan*, Doralice Gonzaga, MC Ana Paula Lisboa*, MC Linn da Quebrada*, Roda de Rima Vila Isabel/RJ.</p>
 
     <p><small><em>* &mdash; to be confirmed</em></small></p>
 HTML

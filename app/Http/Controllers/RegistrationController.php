@@ -208,5 +208,8 @@ class RegistrationController extends Controller
     }
   }
 
-  // TODO: pagseguro redirect URL, notification URL
+  public function notification(Request $request) {
+    file_put_contents("/tmp/notifications_test", date("r: ") . serialize($request->all()) . "\n", FILE_APPEND);
+    return null;
+  }
 }

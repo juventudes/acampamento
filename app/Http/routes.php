@@ -36,4 +36,7 @@ Route::group(['prefix' => 'registration'], function() {
 
   // Parts 3, 4
   Route::get('/code/{code}', 'RegistrationController@code');
+
+  // Transition 3--4
+  Route::post('/payment_notification', 'RegistrationController@notification');
 });

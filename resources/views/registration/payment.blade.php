@@ -34,6 +34,8 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
         <p>O dinheiro será utilizado para a viabilização da estrutura: aluguel do local para acamparmos com segurança, as refeições que serão servidas ao longo dos dias, a infra-estrutura para a cobertura e viabilidade das oficinas, mesas de debate e até mesmo a festa.</p>
 
         <p>Temos algumas formas de pagamento para facilitar a sua vinda. Clique no botão abaixo para fazer seu pagamento. Qualquer problema, entre em contato por meio do e-mail <a href="mailto:juntos@juntos.org.br" class="yellow">juntos@juntos.org.br</a>.</p>
+
+        <p>Se você já pagou a inscrição e segue vendo essa mensagem, por favor aguarde. O sistema pode demorar algumas horas para confirmar seu pagamento.</p>
       </div>
     </section>
 

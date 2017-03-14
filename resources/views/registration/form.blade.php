@@ -34,12 +34,18 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
         <p>Nosso Acampamento é construído coletivamente e auto-financiado. Não recebemos dinheiro de nenhuma empresa ou partido, por isso cobramos o valor de <strong>R$ <?php echo number_format($preco, 2, ',', '.'); ?></strong> para a inscrição, incluindo hospedagem e alimentação. Se você não puder pagar esse preço, não se preocupe: informe nas observações e nós entraremos em contato.</p>
 
         <p>Para informação sobre transporte e caravanas, entre em contato conosco por meio do e-mail <a href="mailto:juntos@juntos.org.br" class="yellow">juntos@juntos.org.br</a>.</p>
+      </div>
+    </section>
+
+    <section class="bg-teal">
+      <div class="max-width-3 mx-auto p2">
+        <h2>Preencha o formulário para se inscrever</h2>
 
         @if ($errors)
           <span class="error">{{$errors->first()}}</span>
         @endif
 
-        <form action="/{{ Config::get('app.locale') }}/assinatura/" method="post">
+        <form action="/{{ Config::get('app.locale') }}/registration/store" method="post">
           {!! csrf_field() !!}
 
           <fieldset>
@@ -49,8 +55,8 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
                 <input type="text" name="nome" id="campo-nome" required="required" placeholder="Nome (social)" />
               </li>
               <li>
-                <label for="campo-registro">Nome de registro*</label>
-                <input type="text" name="nome" id="campo-registro" placeholder="Nome de registro" /> <small>* Caso seu nome social seja diferente do seu nome de registro, preencha esse campo com seu nome de registro. Ele não será divulgado, mas é necessário para a parte burocrática.</small>
+                <label for="campo-registro">Nome de registro<sup>1</sup></label>
+                <input type="text" name="nome" id="campo-registro" placeholder="Nome de registro" /> <small><sup>1</sup> Caso seu nome social seja diferente do seu nome de registro, preencha esse campo com seu nome de registro. Ele não será divulgado, mas é necessário para a parte burocrática.</small>
               </li>
               <li>
                 <label for="campo-dob">Data de nascimento</label>
@@ -74,7 +80,7 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
               </li>
               <li>
                 <label for="campo-local-politico">Local de estudo ou trabalho</label>
-                <input type="text" name="local_politico" id="campo-local-politico" required="required" placeholder="Local de estudo ou trabalho" />
+                <input type="text" name="local_politico" id="campo-local-politico" placeholder="Local de estudo ou trabalho" />
               </li>
               <li>
                 <label>Possui alguma restrição alimentar?</label>
@@ -92,7 +98,10 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
               </li>
             </ul>
 
-            <div><button type="submit" class="bg-yellow">Enviar</button></div>
+            <div>
+              <input type="hidden" name="uf" value="<?php echo $uf; ?>" />
+              <button type="submit" class="bg-yellow">Enviar</button>
+            </div>
           </fieldset>
         </form>
       </div>

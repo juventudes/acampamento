@@ -42,7 +42,7 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
         <h2>Preencha o formulário para se inscrever</h2>
 
         @if ($errors)
-          <span class="error">{{$errors->first()}}</span>
+          <p class="error">{!! $errors->first() !!}</p>
         @endif
 
         <form action="/{{ Config::get('app.locale') }}/registration/store" method="post">
@@ -52,49 +52,50 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
             <ul>
               <li>
                 <label for="campo-nome">Nome (social)</label>
-                <input type="text" name="nome" id="campo-nome" required="required" placeholder="Nome (social)" />
+                <input type="text" name="nome" id="campo-nome" required="required" placeholder="Nome (social)" value="{{ old('nome') }}" />
               </li>
               <li>
                 <label for="campo-registro">Nome de registro<sup>1</sup></label>
-                <input type="text" name="nome" id="campo-registro" placeholder="Nome de registro" /> <small><sup>1</sup> Caso seu nome social seja diferente do seu nome de registro, preencha esse campo com seu nome de registro. Ele não será divulgado, mas é necessário para a parte burocrática.</small>
+                <input type="text" name="nome_r" id="campo-registro" placeholder="Nome de registro" value="{{ old('nome_r') }}" />
+                <small><sup>1</sup> Caso seu nome social seja diferente do seu nome de registro, preencha esse campo com seu nome de registro. Ele não será divulgado, mas é necessário para a parte burocrática.</small>
               </li>
               <li>
                 <label for="campo-dob">Data de nascimento</label>
-                <input type="text" class="date" name="dob" id="campo-dob" required="required" placeholder="Data de nascimento" />
+                <input type="text" class="date" name="dob" id="campo-dob" required="required" placeholder="Data de nascimento" value="{{ old('dob') }}" />
               </li>
               <li>
                 <label for="campo-rg">RG</label>
-                <input type="text" name="rg" id="campo-rg" required="required" placeholder="RG" />
+                <input type="text" name="rg" id="campo-rg" required="required" placeholder="RG" value="{{ old('rg') }}" />
               </li>
               <li>
                 <label for="campo-local">Cidade</label>
-                <input type="text" name="local" id="campo-cidade" required="required" placeholder="Cidade" />
+                <input type="text" name="cidade" id="campo-cidade" required="required" placeholder="Cidade" value="{{ old('cidade') }}" />
               </li>
               <li>
                 <label for="campo-telefone">{{ trans('fields.telefone') }}</label>
-                <input type="text" class="phone" name="telefone" id="campo-telefone" placeholder="Telefone (WhatsApp, se tiver)" />
+                <input type="text" class="phone" name="telefone" id="campo-telefone" placeholder="Telefone (WhatsApp, se tiver)" value="{{ old('telefone') }}" />
               </li>
               <li>
                 <label for="campo-email">{{ trans('fields.email') }}</label>
-                <input type="email" name="email" id="campo-email" placeholder="E-mail" />
+                <input type="email" name="email" id="campo-email" required="required" placeholder="E-mail" value="{{ old('email') }}" />
               </li>
               <li>
                 <label for="campo-local-politico">Local de estudo ou trabalho</label>
-                <input type="text" name="local_politico" id="campo-local-politico" placeholder="Local de estudo ou trabalho" />
+                <input type="text" name="estudo_trabalho" id="campo-local-politico" placeholder="Local de estudo ou trabalho" value="{{ old('estudo_trabalho') }}" />
               </li>
               <li>
                 <label>Possui alguma restrição alimentar?</label>
-                <label><input type="radio" name="restricao" value="sim" /> Sim (informe qual nas observações abaixo)</label>
-                <label><input type="radio" name="restricao" value="nao" /> Não</label>
+                <label><input type="radio" name="restricao" value="1" <?php if (old('restricao') == "1") { echo 'checked="checked"'; } ?> /> Sim (informe qual nas observações abaixo)</label>
+                <label><input type="radio" name="restricao" value="0" <?php if (old('restricao') != "1") { echo 'checked="checked"'; } ?> /> Não</label>
               </li>
               <li>
                 <label>Precisa de creche?</label>
-                <label><input type="radio" name="creche" value="sim" /> Sim</label>
-                <label><input type="radio" name="creche" value="nao" /> Não</label>
+                <label><input type="radio" name="creche" value="1" <?php if (old('creche') == "1") { echo 'checked="checked"'; } ?> /> Sim</label>
+                <label><input type="radio" name="creche" value="0" <?php if (old('creche') != "1") { echo 'checked="checked"'; } ?> /> Não</label>
               </li>
               <li>
                 <label for="observacoes">Observações</label>
-                <textarea id="observacoes" rows="5" placeholder="Por exemplo, restrições alimentares, comentários ou dúvidas."></textarea>
+                <textarea name="obs" id="observacoes" rows="5" placeholder="Por exemplo, restrições alimentares, comentários ou dúvidas.">{{ old('obs') }}</textarea>
               </li>
             </ul>
 

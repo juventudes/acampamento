@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-//use App\Registration; TODO
+use App\Registration;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -73,9 +73,20 @@ class RegistrationController extends Controller
   }
 
   public function form_validate() {
-    // TODO: validation
     return [
+      'nome' => 'required|between:2,250',
+      'dob' => 'required|date',
+      'rg' => 'required|between:2,30',
+      'cidade' => 'required|between:2,250',
+      'telefone' => 'digits_between:10,11',
+      'email' => 'required|email|unique:registrations',
+      'restricao' => 'required|boolean',
+      'creche' => 'required|boolean',
     ];
+  }
+
+  public function get_pagseguro_code() {
+    // TODO
   }
 
   // Part 1
@@ -99,9 +110,12 @@ class RegistrationController extends Controller
   public function store(Request $request) {
     $telefone = ((object) $request->all())->telefone;
     $telefone = preg_replace('/[^0-9]/', '', $telefone);
-    $request->merge(array('telefone' => $telefone));
 
-    // TODO: get code from pagseguro
+    $dob = ((object) $request->all())->dob;
+    list($d, $m, $y) = explode("/", $dob);
+    $dob = sprintf("%04d-%02d-%02d", $y, $m, $d);
+
+    $request->merge(array('telefone' => $telefone, 'dob' => $dob));
 
     $validator = Validator::make($request->all(), self::form_validate());
     if ($validator->fails()){
@@ -110,6 +124,16 @@ class RegistrationController extends Controller
         ->withErrors($validator)
         ->withInput();
     }
+
+    $code = $this->get_pagseguro_code();
+    if (!$code) {
+      // TODO: mail admin
+      return redirect()
+        ->back()
+        ->withErrors(['message' => 'Erro ao gerar código de pagamento. Isso não deveria acontecer. Entre em contato com <a href="mailto:juntos@juntos.org.br">juntos@juntos.org.br</a>.'])
+        ->withInput();
+    }
+    $request->merge(array('code' => $code));
 
     $registration = new Registration();
     $registration->fill($request->all());
@@ -123,18 +147,20 @@ class RegistrationController extends Controller
 
   // Parts 3, 4
   public function code($code) {
-    /*
-    return view('registration.done')->with([
-      'user_name' => 'Tiago Madeira',
-    ]);
-    */
-    // TODO: use code, 404 if code does not exist, go to registration.done if payment is done
-    return view('registration.payment')->with([
-      'user_name' => 'Tiago Madeira',
-      'user_city' => 'Itajaí',
-      'user_uf' => 'SC',
-      'price' => 50,
-      'code' => $code,
-    ]);
+    $registration = Registration::where('code', $code)->firstOrFail();
+
+    if ($registration->pago) {
+      return view('registration.done')->with([
+        'user_name' => $registration->nome
+      ]);
+    } else {
+      return view('registration.payment')->with([
+        'user_name' => $registration->nome,
+        'user_city' => $registration->cidade,
+        'user_uf' => $registration->uf,
+        'price' => $this->precos[$registration->uf],
+        'code' => $code,
+      ]);
+    }
   }
 }

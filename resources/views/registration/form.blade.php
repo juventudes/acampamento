@@ -68,6 +68,10 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
                 <input type="text" name="rg" id="campo-rg" required="required" placeholder="RG" value="{{ old('rg') }}" />
               </li>
               <li>
+                <label for="campo-estado">Estado</label>
+                <input type="text" name="estado" id="campo-estado" disabled="disabled" value="{{ $nome_uf }}" style="background: #ddd;" />
+              </li>
+              <li>
                 <label for="campo-local">Cidade</label>
                 <input type="text" name="cidade" id="campo-cidade" required="required" placeholder="Cidade" value="{{ old('cidade') }}" />
               </li>

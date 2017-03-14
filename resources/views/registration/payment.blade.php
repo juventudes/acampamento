@@ -39,7 +39,13 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
 
     <section class="bg-teal">
       <div class="max-width-3 mx-auto p2">
-        <script type="text/javascript" src="https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+        <?php
+        $ps_url = "pagseguro.uol.com.br";
+        if (!\App::environment('production')) {
+          $ps_url = "sandbox.pagseguro.uol.com.br";
+        }
+        ?>
+        <script type="text/javascript" src="https://stc.{{ $ps_url }}/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
 
         <script type="text/javascript">
         var code = '<?php echo $code; ?>';
@@ -58,7 +64,7 @@ $canonical = 'https://acampamento.juntos.org.br/' . Config::get('app.locale') . 
           );
 
           if (!isOpenLightbox) {
-            location.href = "https://sandbox.pagseguro.uol.com.br/v2/checkout/payment.html?code=" + code;
+            location.href = "https://{{ $ps_url }}/v2/checkout/payment.html?code=" + code;
           }
         };
         </script>

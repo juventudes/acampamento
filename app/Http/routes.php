@@ -2,7 +2,11 @@
 
 use App\Assinatura;
 
-Route::get('/', function () {
+Route::get('/', function() {
+  return redirect('registration');
+});
+
+Route::get('/manifesto', function () {
   // TODO: pagination
   return view('manifesto.index')->with([
     'total_count' => Assinatura::all()->count(),

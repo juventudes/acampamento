@@ -15,7 +15,7 @@ class CreateRegistrationsTable extends Migration
         Schema::create('registrations', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->string('code')->unique();
+            $table->string('code');
             $table->string('nome');
             $table->string('nome_r');
             $table->date('dob');

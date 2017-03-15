@@ -98,7 +98,7 @@ class RegistrationController extends Controller
     ];
   }
 
-  public function get_pagseguro_code($price) {
+  public function get_pagseguro_code($id, $price) {
     try {
       $sessionCode = \PagSeguro\Services\Session::create(\PagSeguro\Configuration\Configure::getAccountCredentials());
     } catch (Exception $e) {
@@ -108,6 +108,7 @@ class RegistrationController extends Controller
     $payment = new \PagSeguro\Domains\Requests\Payment();
     $payment->addItems()->withParameters('0001', 'Inscricao no Acampamento Internacional das Juventudes em Luta', 1, number_format($price, 2, '.', ''));
     $payment->setCurrency("BRL");
+    $payment->setReference($id);
 
     try {
       $result = $payment->register(\PagSeguro\Configuration\Configure::getAccountCredentials(), true);
@@ -168,18 +169,25 @@ class RegistrationController extends Controller
         ->withInput();
     }
 
-    $code = $this->get_pagseguro_code($this->precos[$request->uf]);
+    $registration = new Registration();
+    $registration->fill($request->all());
+    if (!$registration->save()) {
+      abort(500);
+      return null;
+    }
+
+    $code = $this->get_pagseguro_code($registration->id, $this->precos[$request->uf]);
     if (!$code) {
+      $registration->delete();
       // TODO: mail admin
       return redirect()
         ->back()
         ->withErrors(['message' => 'Erro ao gerar código de pagamento. Isso não deveria acontecer. Entre em contato com <a href="mailto:juntos@juntos.org.br">juntos@juntos.org.br</a>.'])
         ->withInput();
     }
-    $request->merge(array('code' => $code));
 
-    $registration = new Registration();
-    $registration->fill($request->all());
+    $registration->code = $code;
+
     if ($registration->save()) {
       $this->send_form_confirmation_email($registration->nome, $registration->email, $this->precos[$registration->uf], "https://acampamento.juntos.org.br/registration/code/" . $registration->code);
       return redirect("/registration/code/" . $registration->code);
@@ -213,6 +221,9 @@ class RegistrationController extends Controller
     try {
       $response = \PagSeguro\Services\Transactions\Notification::check(\PagSeguro\Configuration\Configure::getAccountCredentials());
       file_put_contents("/tmp/notifications_test", serialize($response) . "\n", FILE_APPEND);
+      if ($response->status == 3) {
+        // TODO: paid!
+      }
     } catch (Exception $e) {
       file_put_contents("/tmp/notifications_test", "exception " . $e->getMessage() . "\n", FILE_APPEND);
     }

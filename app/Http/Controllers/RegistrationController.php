@@ -129,6 +129,17 @@ class RegistrationController extends Controller
     );
   }
 
+  public function send_final_confirmation_email($nome, $email) {
+    Mail::send(
+      'emails.payment_confirmation',
+      [ 'nome' => $nome ],
+      function ($m) use ($nome, $email) {
+        $m->from('juntos@juntos.org.br', 'Comissão do Acampamento');
+        $m->to($email, $nome)->subject('Pagamento recebido e inscrição confirmada!');
+      }
+    );
+  }
+
   // Part 1
   public function index() {
     return view('registration.index');
@@ -222,7 +233,10 @@ class RegistrationController extends Controller
       $response = \PagSeguro\Services\Transactions\Notification::check(\PagSeguro\Configuration\Configure::getAccountCredentials());
       file_put_contents("/tmp/notifications_test", serialize($response) . "\n", FILE_APPEND);
       if ($response->status == 3) {
-        // TODO: paid!
+        $registration = Registration::findOrFail($response->reference);
+        $registration->pago = 1;
+        $registration->save();
+        $this->send_final_confirmation_email($registration->nome, $registration->email);
       }
     } catch (Exception $e) {
       file_put_contents("/tmp/notifications_test", "exception " . $e->getMessage() . "\n", FILE_APPEND);

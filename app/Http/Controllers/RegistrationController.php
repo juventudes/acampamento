@@ -232,8 +232,8 @@ class RegistrationController extends Controller
     try {
       $response = \PagSeguro\Services\Transactions\Notification::check(\PagSeguro\Configuration\Configure::getAccountCredentials());
       file_put_contents("/tmp/notifications_test", serialize($response) . "\n", FILE_APPEND);
-      if ($response->status == 3) {
-        $registration = Registration::findOrFail($response->reference);
+      if ($response->getStatus() == 3) {
+        $registration = Registration::findOrFail($response->getReference());
         $registration->pago = 1;
         $registration->save();
         $this->send_final_confirmation_email($registration->nome, $registration->email);

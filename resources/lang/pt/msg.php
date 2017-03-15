@@ -22,7 +22,6 @@ return [
     'camp_title' => 'Acampamento Internacional das Juventudes em Luta',
     'camp_description' => 'Em abril de 2017 no Rio de Janeiro. Junte-se a nós e saiba mais!',
     'footer_html' => <<<HTML
-Em breve este site vai ter mais informações sobre o Acampamento Internacional das Juventudes em Luta.<br />
 Dúvidas? Para <strong>entrar em contato</strong>, envie um e-mail para <a href="mailto:juntos@juntos.org.br">juntos@juntos.org.br</a>.
 HTML
 ];

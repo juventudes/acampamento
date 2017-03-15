@@ -63,7 +63,7 @@
       <ul>
         <li><a href="/{{ Config::get('app.locale') }}/" class="px1 py1">{{ trans('menu.manifest') }}</a></li>
         <li><a href="/{{ Config::get('app.locale') }}/schedule/" class="px1 py1">{{ trans('menu.schedule') }}</a></li>
-        <!--<li><a href="/{{ Config::get('app.locale') }}/registration/" class="px1 py1">{{ trans('menu.registration') }}</a></li>-->
+        <li><a href="/{{ Config::get('app.locale') }}/registration/" class="px1 py1">{{ trans('menu.registration') }}</a></li>
       </ul>
     </div>
   </nav>

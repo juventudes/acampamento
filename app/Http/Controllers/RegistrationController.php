@@ -75,7 +75,7 @@ class RegistrationController extends Controller
       'go' => 50,
       'pr' => 50,
       'sc' => 50,
-      'rs' => 50,
+      'rs' => 200,
       'sp' => 70,
       'mg' => 70,
       'rj' => 80,

@@ -1,6 +1,7 @@
 <?php
 
 use App\Assinatura;
+use App\Registration;
 
 Route::get('/', function() {
   return redirect('registration');
@@ -43,4 +44,17 @@ Route::group(['prefix' => 'registration'], function() {
 
   // Transition 3--4
   Route::post('/payment_notification', 'RegistrationController@notification');
+});
+
+Route::get('/r/{uf}/{key}', function($uf, $key) {
+  $hash = hash_hmac('sha256', $uf, env('APP_KEY'), false);
+  if ($hash != $key) {
+    abort(404);
+    return null;
+  }
+
+  return view('registrations.show')->with([
+    'uf' => $uf,
+    'users' => Registration::where('uf', $uf)->get(),
+  ]);
 });

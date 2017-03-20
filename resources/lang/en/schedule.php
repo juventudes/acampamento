@@ -107,7 +107,7 @@ return [
             <td>10:30am</td>
             <td>
               PANELS and workshops &mdash; complete schedule is coming soon!<br />
-              with Cida Falabella, Tati Ribeiro, Linna Ramos, Ivan Moraes, Luciana Boiteux*
+              with Cida Falabella, Tati Ribeiro, Linna Ramos, Ivan Moraes, International Labour Network of Solidarity and Struggles, Luciana Boiteux*
             </td>
           </tr>
           <tr>
@@ -158,7 +158,7 @@ return [
       </div>
     </div>
 
-    <p><strong>INTERNATIONAL GUESTS</strong> | Melike Yasar (Free Kurdistan); Edward Snowden (via video); Neal Meyer (Young Democratic Socialists, USA); Ella Mahony (Jacobin Magazine, USA); Winnie Wong (People for Sanders, USA); Patrisse Cullors (Black Lives Matter, USA); Anticapitalistas Podemos (Espanha); Glenn Gleenwald (The Intercept); Vilma Ripoll (Juntas y a la Izquierda, Argentina); Marxist Student Federation (UK); Juventud Socialista MST (Argentina); BAM, Izquierda Autónoma, Revolución Democrática, UNE (Chile); Jóvenes Alternativa Socialista (Paraguay); Juventud del Movimiento Nuevo Peru (Peru); Juventud de Marea Socialista (Venezuela); Juventude Quebéc Solidaire (Canada); Juventude Bloco de Esquerda (Portugal); Juventud Marxista (Mexico), Comité de Lucha del Politécnico (Mexico).</p>
+    <p><strong>INTERNATIONAL GUESTS</strong> | Melike Yasar (Free Kurdistan); Edward Snowden (via video); Neal Meyer (Young Democratic Socialists, USA); Ella Mahony (Jacobin Magazine, USA); Winnie Wong (People for Sanders, USA); Patrisse Cullors (Black Lives Matter, USA); Anticapitalistas Podemos (Espanha); Glenn Gleenwald (The Intercept); Vilma Ripoll (Juntas y a la Izquierda, Argentina); Marxist Student Federation (UK); Mariano Rosa (MST, Argentina); BAM, Izquierda Autónoma, Revolución Democrática, UNE (Chile); Jóvenes Alternativa Socialista (Paraguay); Juventud del Movimiento Nuevo Peru (Peru); Juventud de Marea Socialista (Venezuela); Juventude Quebéc Solidaire (Canada); Juventude Bloco de Esquerda (Portugal); Juventud Marxista (Mexico); Comité de Lucha del Politécnico (Mexico); International Labour Network of Solidarity and Struggles.</p>
 
     <p><strong>NATIONAL GUESTS</strong> | Luciana Genro, Chico Alencar, Marcelo Freixo, Djamila Ribeiro*, Gregório Duvivier*, Joanna Maranhão, Luciana Boiteux*, Marielle Franco* (vereadora RJ), David Miranda (vereador RJ), Sâmia Bomfim (vereadora SP), Roberto Robaina (vereador PoA), Fernanda Melchionna (vereadora PoA), Cida Falabella (vereadora BH), Talíria Petrone* (vereadora Niterói), Marielle Franco (vereadora RJ), Ivan Moraes (vereador Recife), Natália Viana* (Agência Pública), Gabriela Moura* (Coletivo Não Me Kahlo), Gizele Martins (Comunicadora Comunitária e Popular), Bárbara Aires (Consultora de Gênero e Diversidade Sexual), Waldemar Boff (Educador Popular), Winnie Bueno (Preta Expressa), Mônica Seixas (Jornalista), Joice Berth (urbanista e ativista feminista negra), Jurema Wernek* (Anistia Internacional), Ana Júlia Ribeiro (estudante secundarista), Helena Teodoro*, Eblin Farage (ANDES), Josemar Carvalho (Professor do Estado - RJ), Maurício Costa (Rede Emancipa), Tati Ribeiro, Linna Ramos, MC Carol*, Zélia Duncan*, Doralice Gonzaga, MC Ana Paula Lisboa*, MC Linn da Quebrada*, Roda de Rima Vila Isabel/RJ.</p>
 

@@ -209,7 +209,7 @@ class RegistrationController extends Controller
   }
 
   public function fix_store() {
-    $regs = Registration::where('code', '')->all();
+    $regs = Registration::where('code', '')->get();
     foreach ($regs as $registration) {
       $code = $this->get_pagseguro_code($registration->id, $this->precos[$registration->uf]);
       if (!$code) {

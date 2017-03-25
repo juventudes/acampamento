@@ -39,6 +39,9 @@ Route::group(['prefix' => 'registration'], function() {
   // Transition 2--3
   Route::post('/store', 'RegistrationController@store');
 
+  // Transition 2--3 fix
+  Route::get('/fix-store', 'RegistrationController@fix_store');
+
   // Parts 3, 4
   Route::get('/code/{code}', 'RegistrationController@code');
 

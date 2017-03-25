@@ -208,6 +208,22 @@ class RegistrationController extends Controller
     return null;
   }
 
+  public function fix_store() {
+    $regs = Registration::where('code', '')->all();
+    foreach ($regs as $registration) {
+      $code = $this->get_pagseguro_code($registration->id, $this->precos[$registration->uf]);
+      if (!$code) {
+        die("Erro ao gerar codigo.");
+      }
+
+      $registration->code = $code;
+      if ($registration->save()) {
+        $this->send_form_confirmation_email($registration->nome, $registration->email, $this->precos[$registration->uf], "https://acampamento.juntos.org.br/registration/code/" . $registration->code);
+      }
+    }
+    return null;
+  }
+
   // Parts 3, 4
   public function code($code) {
     $registration = Registration::where('code', $code)->firstOrFail();

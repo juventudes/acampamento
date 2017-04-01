@@ -56,8 +56,14 @@ Route::get('/r/{uf}/{key}', function($uf, $key) {
     return null;
   }
 
+  if ($uf === "br") {
+    $users = Registration::all();
+  } else {
+    $users = Registration::where('uf', $uf)->get();
+  }
+
   return view('registrations.show')->with([
     'uf' => $uf,
-    'users' => Registration::where('uf', $uf)->get(),
+    'users' => $users,
   ]);
 });

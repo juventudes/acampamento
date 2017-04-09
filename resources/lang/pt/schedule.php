@@ -31,7 +31,7 @@ return [
             <td>19h30</td>
             <td>
               DEBATE <strong>“Por um mundo sem muros e sem fronteiras”</strong><br />
-              com Luciana Genro, Winnie Wong, Ana Borguin, Serge Goulart, Black Lives Matter, Tico Santa Cruz (a confirmar)
+              com Luciana Genro, Winnie Wong, Ana Borguin, Serge Goulart, Black Lives Matter, Gregório Duvivier (a confirmar)
             </td>
           </tr>
         </table>
@@ -52,13 +52,6 @@ return [
             <td>
               DEBATE <strong>“Nem Trump, nem Temer!”</strong><br />
               com Marcelo Freixo (PSOL | Brasil), Israel Dutra (MES | Brasil), Neal Meyer (DSA | EUA), Mariano Rosa (MST | Argentina), Ben Gliniecki (Marxist Student Federation | Reino Unido), Joaquín Araneda (BAM | Chile), Patrisse Cullors (Black Lives Matter | EUA), Ella Mahony (Jacobin | EUA), Andrea Pacheco (Marea Socialista | Venezuela), Maura Gálvez (Chile), Camila Souza (Juntos | Brasil)
-            </td>
-          </tr>
-          <tr>
-            <td>11h30</td>
-            <td>
-              APRESENTAÇÃO da Cartilha “100 anos da Revolução Russa”<br />
-              com Roberto Robaina e Luiz Bicalho
             </td>
           </tr>
           <tr>
@@ -102,6 +95,13 @@ return [
 
         <table>
           <tr>
+            <td>9h30</td>
+            <td>
+              APRESENTAÇÃO da cartilha “100 anos da Revolução Russa”<br />
+              com Roberto Robaina e Luiz Bicalho
+            </td>
+          </tr>
+          <tr>
             <td>10h30</td>
             <td>
               PAINEIS e oficinas &mdash; em breve a programação completa!<br />
@@ -114,7 +114,7 @@ return [
               Mesa 1: Fernanda Melchionna, Joanna Maranhão, Clara Saraiva, Winnie Bueno<br />
               <small>Anfitriãs: Linna Ramos e Nathi Bittencurt</small><br />
               <br />
-              Mesa 2: Sâmia Bomfim, Stephanie Ribeiro, Lucy Dias, Barbara Aires<br />
+              Mesa 2: Sâmia Bomfim, Zeneide Lima, Lucy Dias, Barbara Aires<br />
               <small>Anfitriãs: Tati Ribeiro e Carol Villar</small>
             </td>
           </tr>

@@ -31,7 +31,7 @@ return [
             <td>7:30pm</td>
             <td>
               DEBATE <strong>“For a world without walls and without borders”</strong><br />
-              with Luciana Genro, Winnie Wong, Ana Borguin, Serge Goulart, Black Lives Matter, Tico Santa Cruz (to be confirmed)
+              with Luciana Genro, Winnie Wong, Ana Borguin, Serge Goulart, Black Lives Matter, Gregório Duvivier (to be confirmed)
             </td>
           </tr>
         </table>
@@ -52,13 +52,6 @@ return [
             <td>
               DEBATE <strong>“Neither Trump nor Temer!”</strong><br />
               with Marcelo Freixo (PSOL | Brazil), Israel Dutra (MES | Brazil), Neal Meyer (DSA | USA), Mariano Rosa (MST | Argentina), Ben Gliniecki (Marxist Student Federation | UK), Joaquín Araneda (BAM | Chile), Patrisse Cullors (Black Lives Matter | US), Ella Mahony (Jacobin | US), Andrea Pacheco (Marea Socialista | Venezuela), Maura Gálvez (Chile), Camila Souza (Juntos | Brazil)
-            </td>
-          </tr>
-          <tr>
-            <td>11:30am</td>
-            <td>
-              PRESENTATION of the booklet “100 years of the Russian Revolution”<br />
-              with Roberto Robaina and Luiz Bicalho
             </td>
           </tr>
           <tr>
@@ -102,6 +95,13 @@ return [
 
         <table>
           <tr>
+            <td>9:30am</td>
+            <td>
+              PRESENTATION of the booklet “100 years of the Russian Revolution”<br />
+              with Roberto Robaina and Luiz Bicalho
+            </td>
+          </tr>
+          <tr>
             <td>10:30am</td>
             <td>
               PANELS and workshops &mdash; complete schedule is coming soon!
@@ -114,7 +114,7 @@ return [
               Round-table #1: Fernanda Melchionna, Joanna Maranhão, Clara Saraiva, Winnie Bueno<br />
               <small>Hosts: Linna Ramos, Nathi Bittencurt</small><br />
               <br />
-              Round-table #2: Sâmia Bomfim, Stephanie Ribeiro, Lucy Dias, Barbara Aires<br />
+              Round-table #2: Sâmia Bomfim, Zeneide Lima, Lucy Dias, Barbara Aires<br />
               <small>Hosts: Tati Ribeiro, Carol Villar</small>
             </td>
           </tr>
@@ -148,8 +148,7 @@ return [
           <tr>
             <td>11am</td>
             <td>
-              Final ASSEMBLY<br />
-              <small>Where? Galpão Ação Cidadania</small>
+              Final ASSEMBLY
             </td>
           </tr>
         </table>

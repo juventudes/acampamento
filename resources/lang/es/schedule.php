@@ -51,7 +51,7 @@ return [
             <td>9h30</td>
             <td>
               DEBATE <strong>“Ni Trump, ni Temer!”</strong><br />
-              con Marcelo Freixo (PSOL | Brasil), Israel Dutra (MES | Brasil), Neal Meyer (DSA | EUA), Mariano Rosa (MST | Argentina), Manuel Afonso (MAS | Portugal), Ben Gliniecki (Marxist Student Federation | Reino Unido), Joaquín Araneda (BAM | Chile), Patrisse Cullors (Black Lives Matter | EUA), Ella Mahony (Jacobin | EUA), Andrea Pacheco (Marea Socialista | Venezuela), Maura Gálvez (Chile), Camila Souza (Juntos | Brasil)
+              con Marcelo Freixo (PSOL | Brasil), Israel Dutra (MES | Brasil), Neal Meyer (DSA | EUA), Mariano Rosa (MST | Argentina), Ben Gliniecki (Marxist Student Federation | Reino Unido), Joaquín Araneda (BAM | Chile), Patrisse Cullors (Black Lives Matter | EUA), Ella Mahony (Jacobin | EUA), Andrea Pacheco (Marea Socialista | Venezuela), Maura Gálvez (Chile), Camila Souza (Juntos | Brasil)
             </td>
           </tr>
           <tr>

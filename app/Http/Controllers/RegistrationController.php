@@ -25,6 +25,10 @@ class RegistrationController extends Controller
 
     \PagSeguro\Configuration\Configure::setCharset('UTF-8');
 
+    $this->no_more_registrations = [
+      'sp' => 1
+    ];
+
     $this->estados = [
       'to' => 'Tocantins',
       'ba' => 'Bahia',
@@ -150,6 +154,9 @@ class RegistrationController extends Controller
     if (!isset($this->estados[$uf])) {
       abort(404);
     }
+    if (isset($this->no_more_registrations[$uf])) {
+      return view('registration.closed')->with(['uf' => $uf, 'nome_uf' => $this->estados[$uf]]);
+    }
     return view('registration.form')->with([
       'uf' => $uf,
       'nome_uf' => $this->estados[$uf],
@@ -161,6 +168,10 @@ class RegistrationController extends Controller
   public function store(Request $request) {
     if (!isset($this->precos[$request->uf])) {
       die("Erro fatal: Estado nao existe.");
+    }
+    $uf = $request->uf;
+    if (isset($this->no_more_registrations[$uf])) {
+      return view('registration.closed')->with(['uf' => $uf, 'nome_uf' => $this->estados[$uf]]);
     }
 
     $telefone = ((object) $request->all())->telefone;

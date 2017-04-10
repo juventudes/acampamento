@@ -21,6 +21,10 @@ Route::get('/schedule', function() {
   return view('schedule.index');
 });
 
+Route::get('/directions', function() {
+  return view('directions.index');
+});
+
 Route::resource('assinatura', 'AssinaturaController', [
     'except' => [
         'destroy',

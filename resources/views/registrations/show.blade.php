@@ -21,6 +21,7 @@ function formata_tel($numero){
           <tr>
             <td>#</td>
             <td>Nome</td>
+            <td>Nome registro</td>
             <td>Nascimento</td>
             <td>RG</td>
             <td>Estudo/Trabalho</td>
@@ -40,6 +41,8 @@ function formata_tel($numero){
             <td>{{ ++$count }}</td>
             <td>
               {{ $user->nome }}<br />
+            </td>
+            <td>
               <small>{{ $user->nome_r }}</small>
             </td>
             <td>{{ date("d/m/Y", strtotime($user->dob)) }}</td>

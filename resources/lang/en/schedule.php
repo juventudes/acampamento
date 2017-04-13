@@ -16,22 +16,17 @@ return [
 
         <table>
           <tr>
-            <td>5pm</td>
-            <td>
-              Winnie Bueno INTERVIEWS <strong>Joice Berth</strong>
-            </td>
-          </tr>
-          <tr>
             <td>6pm</td>
             <td>
-              WALK <strong>“No human being is illegal”</strong>
+              DEBATE <strong>“Neither Trump, nor Temer”</strong><br />
+              with Luciana Genro, Dira Paes (to be confirmed), Winnie Wong, Ana Borguin, Serge Goulart, Kandace Montgomery<br />
+              <small>Hosts: Carol Villar (PA), David Miranda (RJ)</small>
             </td>
           </tr>
           <tr>
-            <td>7:30pm</td>
+            <td>9pm</td>
             <td>
-              DEBATE <strong>“For a world without walls and without borders”</strong><br />
-              with Luciana Genro, Winnie Wong, Ana Borguin, Serge Goulart, Black Lives Matter, Gregório Duvivier (to be confirmed)
+              Winnie Bueno INTERVIEWS <strong>Joice Berth</strong>
             </td>
           </tr>
         </table>
@@ -42,24 +37,22 @@ return [
 
         <table>
           <tr>
-            <td>9am</td>
-            <td>
-              VIDEO <strong>“Juntos: the indignant youth”</strong>
-            </td>
-          </tr>
-          <tr>
             <td>9:30am</td>
             <td>
-              DEBATE <strong>“Neither Trump nor Temer!”</strong><br />
-              with Marcelo Freixo (PSOL | Brazil), Israel Dutra (MES | Brazil), Neal Meyer (DSA | USA), Mariano Rosa (MST | Argentina), Ben Gliniecki (Marxist Student Federation | UK), Joaquín Araneda (BAM | Chile), Patrisse Cullors (Black Lives Matter | US), Ella Mahony (Jacobin | US), Andrea Pacheco (Marea Socialista | Venezuela), Maura Gálvez (Chile), Camila Souza (Juntos | Brazil)
+              DEBATE <strong>“For a world without walls and without borders”</strong><br />
+              1st moment. International<br />
+              Mariano Rosa (MST, Argentina), Manuel Afonso (MAS, Portugal), Ben Gliniecki (Marxist Student Federation, UK), Joaquím Araneda (BAM, Chile), Patrisse Cullors (Black Lives Matter, US), Ella Mahony (Jacobin Magazine, US), Enrique Fretel (Peru), Andrea Pacheco (Marea Socialista, Venezuela), Maura Gálvez, Neal Meyer (DSA, US), Pedro Fuentes (Portal de la Izquierda)<br /><br />
+              [Discussion groups]<br /><br />
+              2nd moment. National<br />
+              Marcelo Freixo (PSOL), Adriano Mendes (Juntos), Gabi Ferro (Juntas), Ana Paula Santos (Nas Escolas), Israel Dutra (MES)<br /><br />
+              <small>Hosts: Erick Andrade (DF), Fabiana Amorim (RJ)</small>
             </td>
-          </tr>
           <tr>
             <td>2pm</td>
             <td>
               LGBT DEBATE<br />
-              with David Miranda, Jessica Tauanne, Fábio Felix<br />
-              <small>Hosts: Sara Azevedo, Lucci Laporta, Luciano Victorino</small>
+              with David Miranda, Jessica Ipólito, Fábio Felix, Josimar Gomez (Peru)<br />
+              <small>Hosts: Sara Azevedo, Lucci Laporta</small>
             </td>
           </tr>
           <tr>
@@ -73,12 +66,6 @@ return [
             <td>7:30pm</td>
             <td>
               Luciana Genro INTERVIEWS <strong>Glenn Greenwald</strong> (The Intercept)
-            </td>
-          </tr>
-          <tr>
-            <td>8:30pm</td>
-            <td>
-              MOVIE <strong>“Snowden”</strong> (Oliver Stone)
             </td>
           </tr>
           <tr>
@@ -97,25 +84,33 @@ return [
           <tr>
             <td>9:30am</td>
             <td>
-              PRESENTATION of the booklet “100 years of the Russian Revolution”<br />
+              DEBATE “The meaning of marxism 100 years after the Russian Revolution”<br />
               with Roberto Robaina and Luiz Bicalho
             </td>
           </tr>
           <tr>
             <td>10:30am</td>
             <td>
-              PANELS and workshops &mdash; complete schedule is coming soon!
+              PANELS and workshops<br /><br />
+              Oficina 1. Dívida pública brasileira e impactos na conjuntura atual, ministrada pela Auditoria Cidadã da Dívida<br /><br />
+              Oficina 2. Oficina de Teatro<br /><br />
+              Oficina 3. "Da margem à luta: a organização de pessoas trans e travestis no interior da luta de classes", Lucci Laporta, Bernardo Mota, Anna Túlie<br /><br />
+              Oficina 4. Oficina de Malabares, Jordan Silva<br /><br />
+              Oficina 5. Trajetória e criminalização do funk no Rio, Leandro Fontes e MC Leonardo<br /><br />
+              Oficina 6. Junho de 2013 e a juventude do mundo: conceitos e impactos, Leo Lince, Maurício Costa e Nathi Bittencurt<br /><br />
+              Oficina 7. "Diante das turbulências no mundo, como construir uma alternativa anticapitalista?", Valério Arcary, Pedro Fuentes e Ella Mahony<br /><br />
+              Oficina 8. Tour da negritude pelo centro do Rio<br /><br />
+              Oficina 9. Ecossocialismo, extrativismos e empreiteiras, Mariano Rosa e Bernardo Corrêa
             </td>
           </tr>
           <tr>
             <td>2pm</td>
             <td>
-              DEBATE <strong>“Women revolutionizing politics”</strong><br />
-              Round-table #1: Fernanda Melchionna, Joanna Maranhão, Clara Saraiva, Winnie Bueno<br />
-              <small>Hosts: Linna Ramos, Nathi Bittencurt</small><br />
-              <br />
-              Round-table #2: Sâmia Bomfim, Zeneide Lima, Lucy Dias, Barbara Aires<br />
-              <small>Hosts: Tati Ribeiro, Carol Villar</small>
+              DEBATE <strong>“The women revolutionizing politics”</strong><br />
+              1st moment: "Feminisms and the strugle for women rights", Stephanie Ribeiro, Joanna Maranhão, Clara Saraiva, Bárbara Aires, Linna Ramos, Zeneide Lima<br /><br />
+              [Discussion groups]<br /><br />
+              2nd moment: "Our revolution, our feminism", Giulia Tadini, Tati Ribeiro, Nathi Bittencurt, Natalia Frizzarin, Lucy Dias, Evelyn Sotelo, Maura Gálvez<br /><br />
+              <small>Hosts: Fernanda Melchionna, Sâmia Bomfim</small>
             </td>
           </tr>
           <tr>
@@ -129,7 +124,7 @@ return [
             <td>
               DEBATE <strong>“Education does not transform the world. Education changes people. People transform the world.”</strong><br />
               with Chico Alencar (PSOL), Ana Julia Ribeiro (high school student), Eblin Farage (ANDES), Josemar Carvalho (public teacher, RJ), Valdemar Boff (popular educator), Ana Flavia Barbosa (CEAN-DF), Vanessa Alves (first occupied school in SP)<br />
-              <small>Hosts: Ana Paula Santos, Maurício Costa</small>
+              <small>Hosts: Yuri Guilherme, Maurício Costa, Ana Laura</small>
             </td>
           </tr>
           <tr>
@@ -149,6 +144,18 @@ return [
             <td>11am</td>
             <td>
               Final ASSEMBLY
+            </td>
+          </tr>
+          <tr>
+            <td>12pm</td>
+            <td>
+              WALK "No human being is illegal" in Copacabana
+            </td>
+          </tr>
+          <tr>
+            <td>1pm</td>
+            <td>
+              Beach - Copacabana
             </td>
           </tr>
         </table>
